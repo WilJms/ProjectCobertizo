@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-04",
+  "spatialRevision": "2026-10-04-detail-corrections-v3",
+  "physicalHost": "Apple M2 macOS; no physical phone available",
+  "checks": [
+    {
+      "name": "Six coherent states, no duplicated roots/lamps, artificial emission 0/5 and baked lamps 0/35",
+      "pass": true
+    },
+    {
+      "name": "Walkable routes around dining, lounger and pool terminal; water and furniture blocked",
+      "pass": true,
+      "reachable": [
+        {
+          "goal": [
+            0.6,
+            4
+          ],
+          "valid": true,
+          "reachable": true
+        },
+        {
+          "goal": [
+            1.1,
+            2.5
+          ],
+          "valid": true,
+          "reachable": true
+        },
+        {
+          "goal": [
+            4.7,
+            2.5
+          ],
+          "valid": true,
+          "reachable": true
+        },
+        {
+          "goal": [
+            5,
+            4.5
+          ],
+          "valid": true,
+          "reachable": true
+        },
+        {
+          "goal": [
+            5.1,
+            6.1
+          ],
+          "valid": true,
+          "reachable": true
+        },
+        {
+          "goal": [
+            6.2,
+            6.4
+          ],
+          "valid": true,
+          "reachable": true
+        },
+        {
+          "goal": [
+            6.85,
+            7
+          ],
+          "valid": true,
+          "reachable": true
+        }
+      ],
+      "poolBlocked": true,
+      "tableBlocked": true,
+      "visited": 4631
+    },
+    {
+      "name": "Portrait-landscape-portrait preserves camera/state/aspect; compact mouse UI; touch Caminar/Salir; menus block navigation; mixed inputs switch correctly",
+      "pass": true
+    }
+  ],
+  "temporal": [],
+  "viewports": [
+    {
+      "width": 844,
+      "height": 390,
+      "input": "mouse, no touch emulation"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "input": "touch emulation; DPR 2",
+      "aspect": 0.46208530805687204,
+      "canvas": [
+        390,
+        844
+      ],
+      "renderer": [
+        390,
+        844
+      ],
+      "state": "d1_madera_dos_aguas__night",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "input": "touch emulation; DPR 2",
+      "aspect": 2.164102564102564,
+      "canvas": [
+        844,
+        390
+      ],
+      "renderer": [
+        844,
+        390
+      ],
+      "state": "d1_madera_dos_aguas__night",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "input": "touch emulation; DPR 2",
+      "aspect": 0.46208530805687204,
+      "canvas": [
+        390,
+        844
+      ],
+      "renderer": [
+        390,
+        844
+      ],
+      "state": "d1_madera_dos_aguas__night",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

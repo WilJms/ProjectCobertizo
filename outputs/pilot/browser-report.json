@@ -1,0 +1,25 @@
+{
+  "errors": [],
+  "report": [
+    {
+      "time": "day",
+      "meshes": 9,
+      "uv1": 8,
+      "drawCalls": 10,
+      "triangles": 5280,
+      "textures": 19,
+      "gpu": "WebKit WebGL",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    {
+      "time": "night",
+      "meshes": 9,
+      "uv1": 8,
+      "drawCalls": 10,
+      "triangles": 5280,
+      "textures": 19,
+      "gpu": "WebKit WebGL",
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    }
+  ]
+}

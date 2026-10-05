@@ -1,0 +1,16 @@
+.venv/
+web/node_modules/
+*.blend1
+*.blend2
+__pycache__/
+.DS_Store
+
+entrega-repositorio/
+blender/history/
+blender/patio_refresh_test.blend
+outputs/spatial-analysis/*-test*
+outputs/spatial-analysis/*-before*
+outputs/spatial-analysis/*-obsolete*
+web/dist/
+outputs/delivery-staging-*/
+entrega-repositorio-anterior-*/

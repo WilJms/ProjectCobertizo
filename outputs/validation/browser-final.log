@@ -1,0 +1,159 @@
+
+> patio-cobertizos@1.0.0 qa
+> node tests/browser.mjs
+
+Renderer: ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)
+State checked: d1_madera_dos_aguas day
+State checked: d1_madera_dos_aguas night
+State checked: d2_oscuro_cielo_madera day
+State checked: d2_oscuro_cielo_madera night
+State checked: d3_oscuro_paneles_claros day
+State checked: d3_oscuro_paneles_claros night
+{
+  "checks": [
+    {
+      "name": "Identity, meaningful DOM, no framework error overlay",
+      "pass": true
+    },
+    {
+      "name": "WASD movement and pointer-drag free look",
+      "pass": true,
+      "before": [
+        0.3799999952316284,
+        1.899999976158142,
+        8.649999618530273
+      ],
+      "after": [
+        1.1459434655840302,
+        1.6501191181790382,
+        7.424901937067883
+      ]
+    },
+    {
+      "name": "Valid camera preserved across design change",
+      "pass": true
+    },
+    {
+      "name": "Post overlap resolved nearby",
+      "pass": true,
+      "moved": true,
+      "valid": true,
+      "position": [
+        0.961327887680572,
+        1.87,
+        0.19174253579703482
+      ]
+    },
+    {
+      "name": "Rapid requests commit only the final requested state",
+      "pass": true
+    },
+    {
+      "name": "Download failure preserves old scene; retry recovers",
+      "pass": true
+    },
+    {
+      "name": "At most two state lightmap sets retained",
+      "pass": true
+    },
+    {
+      "name": "Landscape joystick does not overlap design choices",
+      "pass": true
+    },
+    {
+      "name": "Fallback explicitly offers renders instead of navigation",
+      "pass": true
+    }
+  ],
+  "metrics": [
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "high",
+      "drawCalls": 133,
+      "triangles": 717690,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        0.3799999952316284,
+        1.899999976158142,
+        8.649999618530273
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.799999999999272,
+      "firstReadyMs": 942,
+      "frames": 1295,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "balanced",
+      "drawCalls": 133,
+      "triangles": 717690,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 15204352,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        0.3799999952316284,
+        1.899999976158142,
+        8.649999618530273
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.799999999995634,
+      "firstReadyMs": 942,
+      "frames": 1653,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "low",
+      "drawCalls": 67,
+      "triangles": 358900,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 3801088,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 0.85,
+      "position": [
+        0.3799999952316284,
+        1.899999976158142,
+        8.649999618530273
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.700000000004366,
+      "firstReadyMs": 942,
+      "frames": 2077,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    }
+  ],
+  "errors": [],
+  "networkFailures": []
+}

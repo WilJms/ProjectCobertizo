@@ -1,0 +1,121 @@
+[
+  {
+    "meshId": "MESH_SURFACES",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      1.0,
+      1.0
+    ],
+    "triangle_count": 76275,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 142296,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  },
+  {
+    "meshId": "MESH_FURNITURE",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      1.0,
+      0.9999999403953552
+    ],
+    "triangle_count": 15980,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 66786,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  },
+  {
+    "meshId": "MESH_VEGETATION",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      0.9999999403953552,
+      0.9999999403953552
+    ],
+    "triangle_count": 79201,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 113133,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  },
+  {
+    "meshId": "MESH_FIXTURES",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      1.0,
+      1.0
+    ],
+    "triangle_count": 3024,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 208348,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  },
+  {
+    "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      1.0,
+      1.0
+    ],
+    "triangle_count": 19928,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 159638,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  },
+  {
+    "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      1.0,
+      1.0
+    ],
+    "triangle_count": 16676,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 154779,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  },
+  {
+    "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+    "uv_min": [
+      0.0,
+      0.0
+    ],
+    "uv_max": [
+      0.9999999403953552,
+      1.0
+    ],
+    "triangle_count": 10696,
+    "zero_area_triangles": 0,
+    "raster_resolution": 512,
+    "covered_pixels": 176217,
+    "overlapped_pixels": 0,
+    "interpretation": "Raster test detects overlaps at 512 px, not an analytic proof at arbitrary resolution."
+  }
+]

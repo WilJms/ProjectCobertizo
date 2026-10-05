@@ -1,0 +1,75 @@
+{
+  "authored_objects": 1405,
+  "derived_meshes": [
+    {
+      "meshId": "MESH_SURFACES",
+      "triangles": 76275,
+      "vertices": 40010,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    },
+    {
+      "meshId": "MESH_FURNITURE",
+      "triangles": 15980,
+      "vertices": 8370,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    },
+    {
+      "meshId": "MESH_VEGETATION",
+      "triangles": 79201,
+      "vertices": 109229,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    },
+    {
+      "meshId": "MESH_FIXTURES",
+      "triangles": 3024,
+      "vertices": 1584,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    },
+    {
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "triangles": 19928,
+      "vertices": 10372,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    },
+    {
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "triangles": 16676,
+      "vertices": 8686,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    },
+    {
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "triangles": 10696,
+      "vertices": 5582,
+      "uv_layers": [
+        "UVMap",
+        "LightmapUV"
+      ]
+    }
+  ],
+  "camera_ids": [
+    "CAM01_GENERAL",
+    "CAM02_MURO_AZUL",
+    "CAM03_CERCO",
+    "CAM04_BAJO_CUBIERTA",
+    "CAM05_PISCINA"
+  ]
+}

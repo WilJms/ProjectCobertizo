@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "sourceMeshesPreserved": 1277,
+  "camerasPreserved": [
+    "CAM01_GENERAL",
+    "CAM02_MURO_AZUL",
+    "CAM03_CERCO",
+    "CAM04_BAJO_CUBIERTA",
+    "CAM05_PISCINA",
+    "PHOTO_R01_CERCO",
+    "PHOTO_R02_TERRAZA",
+    "PHOTO_R03_GENERAL"
+  ],
+  "manualDetailRetained": true,
+  "derivedManualDetailCreated": true,
+  "testFileOnly": "blender/patio_refresh_test.blend"
+}

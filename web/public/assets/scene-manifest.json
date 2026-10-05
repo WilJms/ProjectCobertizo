@@ -1,0 +1,3137 @@
+{
+  "schemaVersion": "1.0",
+  "spatialRevision": "2026-10-04-detail-corrections-v3",
+  "sourceSha256": "ca9df64c8d2134e8b27b01cdc38b623411fca929a3e99c11b3c7feb9ebca6592",
+  "source": "blender/patio_master.blend",
+  "lengthsAreEstimates": true,
+  "commonModel": "assets/models/common.glb",
+  "cameras": [
+    {
+      "id": "CAM01_GENERAL",
+      "position": [
+        -1.0,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "target": [
+        -0.37216877937316895,
+        2.078277587890625,
+        9.031227111816406
+      ],
+      "verticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "near": 0.06,
+      "far": 150
+    },
+    {
+      "id": "CAM02_MURO_AZUL",
+      "position": [
+        3.5,
+        1.75,
+        6.0
+      ],
+      "target": [
+        3.5350003242492676,
+        1.6887495517730713,
+        5.002491474151611
+      ],
+      "verticalFov": 55.0261459967581,
+      "aspect": 1.5,
+      "near": 0.06,
+      "far": 150
+    },
+    {
+      "id": "CAM03_CERCO",
+      "position": [
+        2.049999952316284,
+        1.7200000286102295,
+        5.5
+      ],
+      "target": [
+        3.0403223037719727,
+        1.5815471410751343,
+        5.509614944458008
+      ],
+      "verticalFov": 56.72531402833074,
+      "aspect": 1.5,
+      "near": 0.06,
+      "far": 150
+    },
+    {
+      "id": "CAM04_BAJO_CUBIERTA",
+      "position": [
+        2.0,
+        1.8899999856948853,
+        2.5799999237060547
+      ],
+      "target": [
+        2.743368625640869,
+        2.159029006958008,
+        1.9676059484481812
+      ],
+      "verticalFov": 55.0261459967581,
+      "aspect": 1.5,
+      "near": 0.06,
+      "far": 150
+    },
+    {
+      "id": "CAM05_PISCINA",
+      "position": [
+        1.7000000476837158,
+        1.7300000190734863,
+        8.300000190734863
+      ],
+      "target": [
+        2.5717811584472656,
+        1.2465577125549316,
+        8.220746994018555
+      ],
+      "verticalFov": 51.68754095107214,
+      "aspect": 1.5,
+      "near": 0.06,
+      "far": 150
+    }
+  ],
+  "designs": [
+    {
+      "id": "d1_madera_dos_aguas",
+      "label": "Madera · Dos aguas",
+      "description": "Cercha vista y ala lateral baja"
+    },
+    {
+      "id": "d2_oscuro_cielo_madera",
+      "label": "Oscuro · Cielo de madera",
+      "description": "Estructura oscura y tablillas cálidas"
+    },
+    {
+      "id": "d3_oscuro_paneles_claros",
+      "label": "Oscuro · Paños claros",
+      "description": "Travesaños vistos y cubierta difusora"
+    }
+  ],
+  "states": {
+    "d1_madera_dos_aguas__day": {
+      "designId": "d1_madera_dos_aguas",
+      "timeId": "day",
+      "model": "assets/models/d1_madera_dos_aguas.glb",
+      "lightmaps": [
+        {
+          "meshId": "MESH_SURFACES",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__day__MESH_SURFACES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 2048
+        },
+        {
+          "meshId": "MESH_FURNITURE",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__day__MESH_FURNITURE.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_VEGETATION",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__day__MESH_VEGETATION.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_FIXTURES",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__day__MESH_FIXTURES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 512
+        },
+        {
+          "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__day__MESH_D1_MADERA_DOS_AGUAS.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        }
+      ],
+      "environment": {
+        "uri": "assets/sky_day.jpg",
+        "intensity": 1.8,
+        "backgroundIntensity": 1.2
+      },
+      "exposure": 1.2,
+      "emissionStrength": 0,
+      "lights": [],
+      "naturalLight": {
+        "type": "sun",
+        "baked": true,
+        "id": "SUN_DAY",
+        "energy": 3.5,
+        "color_linear": [
+          1,
+          0.95,
+          0.86
+        ],
+        "angular_diameter_degrees": 0.7,
+        "direction_to_sun_plan": [
+          -0.5,
+          0.55,
+          0.74
+        ]
+      },
+      "water": {
+        "level": -0.14,
+        "reflection": "planar",
+        "time": 0,
+        "absorptionApproximation": true
+      },
+      "collisions": [
+        {
+          "id": "d1_madera_dos_aguas_post_0",
+          "type": "circle",
+          "x": 0.3,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_1",
+          "type": "circle",
+          "x": 0.3,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_2",
+          "type": "circle",
+          "x": 5.7,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_3",
+          "type": "circle",
+          "x": 5.7,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_4",
+          "type": "circle",
+          "x": 7.08,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_5",
+          "type": "circle",
+          "x": 5.74,
+          "y": 5.98,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_6",
+          "type": "circle",
+          "x": 7.07,
+          "y": 7.31786,
+          "radius": 0.13
+        }
+      ],
+      "render": "assets/renders/d1_madera_dos_aguas__day.jpg"
+    },
+    "d1_madera_dos_aguas__night": {
+      "designId": "d1_madera_dos_aguas",
+      "timeId": "night",
+      "model": "assets/models/d1_madera_dos_aguas.glb",
+      "lightmaps": [
+        {
+          "meshId": "MESH_SURFACES",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__night__MESH_SURFACES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 2048
+        },
+        {
+          "meshId": "MESH_FURNITURE",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__night__MESH_FURNITURE.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_VEGETATION",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__night__MESH_VEGETATION.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_FIXTURES",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__night__MESH_FIXTURES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 512
+        },
+        {
+          "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+          "uri": "assets/lightmaps/d1_madera_dos_aguas__night__MESH_D1_MADERA_DOS_AGUAS.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        }
+      ],
+      "environment": {
+        "uri": "assets/sky_night.jpg",
+        "intensity": 1.0,
+        "backgroundIntensity": 1.0
+      },
+      "exposure": 1.2,
+      "emissionStrength": 5,
+      "lights": [
+        {
+          "id": "SCONCE_DOWN_0",
+          "position": [
+            7.2700000000000005,
+            -0.75,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -0.75,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_0",
+          "position": [
+            7.2700000000000005,
+            -0.75,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -0.75,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_1",
+          "position": [
+            7.2700000000000005,
+            -2.05,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -2.05,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_1",
+          "position": [
+            7.2700000000000005,
+            -2.05,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -2.05,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_2",
+          "position": [
+            7.2700000000000005,
+            -3.35,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -3.35,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_2",
+          "position": [
+            7.2700000000000005,
+            -3.35,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -3.35,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_3",
+          "position": [
+            7.2700000000000005,
+            -4.65,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -4.65,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_3",
+          "position": [
+            7.2700000000000005,
+            -4.65,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -4.65,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_4",
+          "position": [
+            7.2700000000000005,
+            -5.95,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -5.95,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_4",
+          "position": [
+            7.2700000000000005,
+            -5.95,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -5.95,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_5",
+          "position": [
+            7.2700000000000005,
+            -7.25,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -7.25,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_5",
+          "position": [
+            7.2700000000000005,
+            -7.25,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -7.25,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_6",
+          "position": [
+            4.55,
+            -0.19,
+            0.89
+          ],
+          "target": [
+            4.55,
+            -0.06,
+            0.15
+          ],
+          "power_w": 13,
+          "size_m": 0.075,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_7",
+          "position": [
+            6.1,
+            -0.19,
+            0.89
+          ],
+          "target": [
+            6.1,
+            -0.06,
+            0.15
+          ],
+          "power_w": 13,
+          "size_m": 0.075,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_0",
+          "position": [
+            1.4800000190734863,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            1.4800000190734863,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_1",
+          "position": [
+            2.8399999141693115,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            2.8399999141693115,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_2",
+          "position": [
+            4.200000286102295,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            4.200000286102295,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_3",
+          "position": [
+            5.485000133514404,
+            -3.8249998092651367,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -3.8249998092651367,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_4",
+          "position": [
+            5.485000133514404,
+            -4.599999904632568,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -4.599999904632568,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_5",
+          "position": [
+            5.485000133514404,
+            -5.375,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -5.375,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_6",
+          "position": [
+            0.044999994337558746,
+            -0.8675000071525574,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -0.8675000071525574,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_7",
+          "position": [
+            0.044999994337558746,
+            -1.5950000286102295,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -1.5950000286102295,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_8",
+          "position": [
+            0.044999994337558746,
+            -2.322499990463257,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -2.322499990463257,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "PLANT_UPLIGHT_0",
+          "position": [
+            0.65,
+            -0.94,
+            0.32
+          ],
+          "target": [
+            0.65,
+            -0.72,
+            1.8
+          ],
+          "power_w": 20,
+          "size_m": 0.09,
+          "group": "common"
+        },
+        {
+          "id": "PLANT_UPLIGHT_1",
+          "position": [
+            5.23,
+            -0.96,
+            0.32
+          ],
+          "target": [
+            5.23,
+            -0.74,
+            1.8
+          ],
+          "power_w": 20,
+          "size_m": 0.09,
+          "group": "common"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_0",
+          "position": [
+            1.1,
+            -0.9,
+            2.9758026755852844
+          ],
+          "target": [
+            1.1,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_1",
+          "position": [
+            1.1,
+            -2.28,
+            2.9758026755852844
+          ],
+          "target": [
+            1.1,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_2",
+          "position": [
+            2.98,
+            -0.9,
+            3.7240301003344483
+          ],
+          "target": [
+            2.98,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_3",
+          "position": [
+            2.98,
+            -2.28,
+            3.7240301003344483
+          ],
+          "target": [
+            2.98,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_4",
+          "position": [
+            4.86,
+            -0.9,
+            2.987742474916388
+          ],
+          "target": [
+            4.86,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_5",
+          "position": [
+            4.86,
+            -2.28,
+            2.987742474916388
+          ],
+          "target": [
+            4.86,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_6",
+          "position": [
+            6.6,
+            -0.7,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -0.7,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_7",
+          "position": [
+            6.6,
+            -2.3,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -2.3,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_8",
+          "position": [
+            6.6,
+            -3.9,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -3.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        },
+        {
+          "id": "d1_madera_dos_aguas_DOWNLIGHT_9",
+          "position": [
+            6.6,
+            -5.55,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -5.55,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d1_madera_dos_aguas"
+        }
+      ],
+      "naturalLight": null,
+      "water": {
+        "level": -0.14,
+        "reflection": "planar",
+        "time": 0,
+        "absorptionApproximation": true
+      },
+      "collisions": [
+        {
+          "id": "d1_madera_dos_aguas_post_0",
+          "type": "circle",
+          "x": 0.3,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_1",
+          "type": "circle",
+          "x": 0.3,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_2",
+          "type": "circle",
+          "x": 5.7,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_3",
+          "type": "circle",
+          "x": 5.7,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_4",
+          "type": "circle",
+          "x": 7.08,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_5",
+          "type": "circle",
+          "x": 5.74,
+          "y": 5.98,
+          "radius": 0.13
+        },
+        {
+          "id": "d1_madera_dos_aguas_post_6",
+          "type": "circle",
+          "x": 7.07,
+          "y": 7.31786,
+          "radius": 0.13
+        }
+      ],
+      "render": "assets/renders/d1_madera_dos_aguas__night.jpg"
+    },
+    "d2_oscuro_cielo_madera__day": {
+      "designId": "d2_oscuro_cielo_madera",
+      "timeId": "day",
+      "model": "assets/models/d2_oscuro_cielo_madera.glb",
+      "lightmaps": [
+        {
+          "meshId": "MESH_SURFACES",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__day__MESH_SURFACES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 2048
+        },
+        {
+          "meshId": "MESH_FURNITURE",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__day__MESH_FURNITURE.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_VEGETATION",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__day__MESH_VEGETATION.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_FIXTURES",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__day__MESH_FIXTURES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 512
+        },
+        {
+          "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__day__MESH_D2_OSCURO_CIELO_MADERA.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        }
+      ],
+      "environment": {
+        "uri": "assets/sky_day.jpg",
+        "intensity": 1.8,
+        "backgroundIntensity": 1.2
+      },
+      "exposure": 1.2,
+      "emissionStrength": 0,
+      "lights": [],
+      "naturalLight": {
+        "type": "sun",
+        "baked": true,
+        "id": "SUN_DAY",
+        "energy": 3.5,
+        "color_linear": [
+          1,
+          0.95,
+          0.86
+        ],
+        "angular_diameter_degrees": 0.7,
+        "direction_to_sun_plan": [
+          -0.5,
+          0.55,
+          0.74
+        ]
+      },
+      "water": {
+        "level": -0.14,
+        "reflection": "planar",
+        "time": 0,
+        "absorptionApproximation": true
+      },
+      "collisions": [
+        {
+          "id": "d2_oscuro_cielo_madera_post_0",
+          "type": "circle",
+          "x": 0.3,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_1",
+          "type": "circle",
+          "x": 0.3,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_2",
+          "type": "circle",
+          "x": 5.7,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_3",
+          "type": "circle",
+          "x": 5.7,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_4",
+          "type": "circle",
+          "x": 7.08,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_5",
+          "type": "circle",
+          "x": 5.74,
+          "y": 5.98,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_6",
+          "type": "circle",
+          "x": 7.07,
+          "y": 7.31786,
+          "radius": 0.13
+        }
+      ],
+      "render": "assets/renders/d2_oscuro_cielo_madera__day.jpg"
+    },
+    "d2_oscuro_cielo_madera__night": {
+      "designId": "d2_oscuro_cielo_madera",
+      "timeId": "night",
+      "model": "assets/models/d2_oscuro_cielo_madera.glb",
+      "lightmaps": [
+        {
+          "meshId": "MESH_SURFACES",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_SURFACES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 2048
+        },
+        {
+          "meshId": "MESH_FURNITURE",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_FURNITURE.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_VEGETATION",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_VEGETATION.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_FIXTURES",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_FIXTURES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 512
+        },
+        {
+          "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+          "uri": "assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_D2_OSCURO_CIELO_MADERA.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        }
+      ],
+      "environment": {
+        "uri": "assets/sky_night.jpg",
+        "intensity": 1.0,
+        "backgroundIntensity": 1.0
+      },
+      "exposure": 1.2,
+      "emissionStrength": 5,
+      "lights": [
+        {
+          "id": "SCONCE_DOWN_0",
+          "position": [
+            7.2700000000000005,
+            -0.75,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -0.75,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_0",
+          "position": [
+            7.2700000000000005,
+            -0.75,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -0.75,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_1",
+          "position": [
+            7.2700000000000005,
+            -2.05,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -2.05,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_1",
+          "position": [
+            7.2700000000000005,
+            -2.05,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -2.05,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_2",
+          "position": [
+            7.2700000000000005,
+            -3.35,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -3.35,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_2",
+          "position": [
+            7.2700000000000005,
+            -3.35,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -3.35,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_3",
+          "position": [
+            7.2700000000000005,
+            -4.65,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -4.65,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_3",
+          "position": [
+            7.2700000000000005,
+            -4.65,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -4.65,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_4",
+          "position": [
+            7.2700000000000005,
+            -5.95,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -5.95,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_4",
+          "position": [
+            7.2700000000000005,
+            -5.95,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -5.95,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_5",
+          "position": [
+            7.2700000000000005,
+            -7.25,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -7.25,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_5",
+          "position": [
+            7.2700000000000005,
+            -7.25,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -7.25,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_6",
+          "position": [
+            4.55,
+            -0.19,
+            0.89
+          ],
+          "target": [
+            4.55,
+            -0.06,
+            0.15
+          ],
+          "power_w": 13,
+          "size_m": 0.075,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_7",
+          "position": [
+            6.1,
+            -0.19,
+            0.89
+          ],
+          "target": [
+            6.1,
+            -0.06,
+            0.15
+          ],
+          "power_w": 13,
+          "size_m": 0.075,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_0",
+          "position": [
+            1.4800000190734863,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            1.4800000190734863,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_1",
+          "position": [
+            2.8399999141693115,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            2.8399999141693115,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_2",
+          "position": [
+            4.200000286102295,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            4.200000286102295,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_3",
+          "position": [
+            5.485000133514404,
+            -3.8249998092651367,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -3.8249998092651367,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_4",
+          "position": [
+            5.485000133514404,
+            -4.599999904632568,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -4.599999904632568,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_5",
+          "position": [
+            5.485000133514404,
+            -5.375,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -5.375,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_6",
+          "position": [
+            0.044999994337558746,
+            -0.8675000071525574,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -0.8675000071525574,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_7",
+          "position": [
+            0.044999994337558746,
+            -1.5950000286102295,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -1.5950000286102295,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_8",
+          "position": [
+            0.044999994337558746,
+            -2.322499990463257,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -2.322499990463257,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "PLANT_UPLIGHT_0",
+          "position": [
+            0.65,
+            -0.94,
+            0.32
+          ],
+          "target": [
+            0.65,
+            -0.72,
+            1.8
+          ],
+          "power_w": 20,
+          "size_m": 0.09,
+          "group": "common"
+        },
+        {
+          "id": "PLANT_UPLIGHT_1",
+          "position": [
+            5.23,
+            -0.96,
+            0.32
+          ],
+          "target": [
+            5.23,
+            -0.74,
+            1.8
+          ],
+          "power_w": 20,
+          "size_m": 0.09,
+          "group": "common"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_0",
+          "position": [
+            1.1,
+            -0.9,
+            2.68
+          ],
+          "target": [
+            1.1,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_1",
+          "position": [
+            1.1,
+            -2.28,
+            2.68
+          ],
+          "target": [
+            1.1,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_2",
+          "position": [
+            2.98,
+            -0.9,
+            2.68
+          ],
+          "target": [
+            2.98,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_3",
+          "position": [
+            2.98,
+            -2.28,
+            2.68
+          ],
+          "target": [
+            2.98,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_4",
+          "position": [
+            4.86,
+            -0.9,
+            2.68
+          ],
+          "target": [
+            4.86,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_5",
+          "position": [
+            4.86,
+            -2.28,
+            2.68
+          ],
+          "target": [
+            4.86,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_6",
+          "position": [
+            6.6,
+            -0.7,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -0.7,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_7",
+          "position": [
+            6.6,
+            -2.3,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -2.3,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_8",
+          "position": [
+            6.6,
+            -3.9,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -3.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_DOWNLIGHT_9",
+          "position": [
+            6.6,
+            -5.55,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -5.55,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d2_oscuro_cielo_madera"
+        }
+      ],
+      "naturalLight": null,
+      "water": {
+        "level": -0.14,
+        "reflection": "planar",
+        "time": 0,
+        "absorptionApproximation": true
+      },
+      "collisions": [
+        {
+          "id": "d2_oscuro_cielo_madera_post_0",
+          "type": "circle",
+          "x": 0.3,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_1",
+          "type": "circle",
+          "x": 0.3,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_2",
+          "type": "circle",
+          "x": 5.7,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_3",
+          "type": "circle",
+          "x": 5.7,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_4",
+          "type": "circle",
+          "x": 7.08,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_5",
+          "type": "circle",
+          "x": 5.74,
+          "y": 5.98,
+          "radius": 0.13
+        },
+        {
+          "id": "d2_oscuro_cielo_madera_post_6",
+          "type": "circle",
+          "x": 7.07,
+          "y": 7.31786,
+          "radius": 0.13
+        }
+      ],
+      "render": "assets/renders/d2_oscuro_cielo_madera__night.jpg"
+    },
+    "d3_oscuro_paneles_claros__day": {
+      "designId": "d3_oscuro_paneles_claros",
+      "timeId": "day",
+      "model": "assets/models/d3_oscuro_paneles_claros.glb",
+      "lightmaps": [
+        {
+          "meshId": "MESH_SURFACES",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__day__MESH_SURFACES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 2048
+        },
+        {
+          "meshId": "MESH_FURNITURE",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__day__MESH_FURNITURE.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_VEGETATION",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__day__MESH_VEGETATION.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_FIXTURES",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__day__MESH_FIXTURES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 512
+        },
+        {
+          "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__day__MESH_D3_OSCURO_PANELES_CLAROS.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        }
+      ],
+      "environment": {
+        "uri": "assets/sky_day.jpg",
+        "intensity": 1.8,
+        "backgroundIntensity": 1.2
+      },
+      "exposure": 1.2,
+      "emissionStrength": 0,
+      "lights": [],
+      "naturalLight": {
+        "type": "sun",
+        "baked": true,
+        "id": "SUN_DAY",
+        "energy": 3.5,
+        "color_linear": [
+          1,
+          0.95,
+          0.86
+        ],
+        "angular_diameter_degrees": 0.7,
+        "direction_to_sun_plan": [
+          -0.5,
+          0.55,
+          0.74
+        ]
+      },
+      "water": {
+        "level": -0.14,
+        "reflection": "planar",
+        "time": 0,
+        "absorptionApproximation": true
+      },
+      "collisions": [
+        {
+          "id": "d3_oscuro_paneles_claros_post_0",
+          "type": "circle",
+          "x": 0.3,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_1",
+          "type": "circle",
+          "x": 0.3,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_2",
+          "type": "circle",
+          "x": 5.7,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_3",
+          "type": "circle",
+          "x": 5.7,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_4",
+          "type": "circle",
+          "x": 7.08,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_5",
+          "type": "circle",
+          "x": 5.74,
+          "y": 5.98,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_6",
+          "type": "circle",
+          "x": 7.07,
+          "y": 7.31786,
+          "radius": 0.13
+        }
+      ],
+      "render": "assets/renders/d3_oscuro_paneles_claros__day.jpg"
+    },
+    "d3_oscuro_paneles_claros__night": {
+      "designId": "d3_oscuro_paneles_claros",
+      "timeId": "night",
+      "model": "assets/models/d3_oscuro_paneles_claros.glb",
+      "lightmaps": [
+        {
+          "meshId": "MESH_SURFACES",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_SURFACES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 2048
+        },
+        {
+          "meshId": "MESH_FURNITURE",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_FURNITURE.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_VEGETATION",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_VEGETATION.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        },
+        {
+          "meshId": "MESH_FIXTURES",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_FIXTURES.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 512
+        },
+        {
+          "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+          "uri": "assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_D3_OSCURO_PANELES_CLAROS.exr",
+          "uvChannel": 1,
+          "flipY": true,
+          "linear": true,
+          "size": 1024
+        }
+      ],
+      "environment": {
+        "uri": "assets/sky_night.jpg",
+        "intensity": 1.0,
+        "backgroundIntensity": 1.0
+      },
+      "exposure": 1.2,
+      "emissionStrength": 5,
+      "lights": [
+        {
+          "id": "SCONCE_DOWN_0",
+          "position": [
+            7.2700000000000005,
+            -0.75,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -0.75,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_0",
+          "position": [
+            7.2700000000000005,
+            -0.75,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -0.75,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_1",
+          "position": [
+            7.2700000000000005,
+            -2.05,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -2.05,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_1",
+          "position": [
+            7.2700000000000005,
+            -2.05,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -2.05,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_2",
+          "position": [
+            7.2700000000000005,
+            -3.35,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -3.35,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_2",
+          "position": [
+            7.2700000000000005,
+            -3.35,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -3.35,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_3",
+          "position": [
+            7.2700000000000005,
+            -4.65,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -4.65,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_3",
+          "position": [
+            7.2700000000000005,
+            -4.65,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -4.65,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_4",
+          "position": [
+            7.2700000000000005,
+            -5.95,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -5.95,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_4",
+          "position": [
+            7.2700000000000005,
+            -5.95,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -5.95,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_5",
+          "position": [
+            7.2700000000000005,
+            -7.25,
+            1.655
+          ],
+          "target": [
+            7.340000000000001,
+            -7.25,
+            0.1
+          ],
+          "power_w": 26,
+          "size_m": 0.085,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_UP_5",
+          "position": [
+            7.2700000000000005,
+            -7.25,
+            1.895
+          ],
+          "target": [
+            7.365,
+            -7.25,
+            2.46
+          ],
+          "power_w": 7,
+          "size_m": 0.07,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_6",
+          "position": [
+            4.55,
+            -0.19,
+            0.89
+          ],
+          "target": [
+            4.55,
+            -0.06,
+            0.15
+          ],
+          "power_w": 13,
+          "size_m": 0.075,
+          "group": "common"
+        },
+        {
+          "id": "SCONCE_DOWN_7",
+          "position": [
+            6.1,
+            -0.19,
+            0.89
+          ],
+          "target": [
+            6.1,
+            -0.06,
+            0.15
+          ],
+          "power_w": 13,
+          "size_m": 0.075,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_0",
+          "position": [
+            1.4800000190734863,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            1.4800000190734863,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_1",
+          "position": [
+            2.8399999141693115,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            2.8399999141693115,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_2",
+          "position": [
+            4.200000286102295,
+            -3.125,
+            0.09
+          ],
+          "target": [
+            4.200000286102295,
+            -3.549999952316284,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_3",
+          "position": [
+            5.485000133514404,
+            -3.8249998092651367,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -3.8249998092651367,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_4",
+          "position": [
+            5.485000133514404,
+            -4.599999904632568,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -4.599999904632568,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_5",
+          "position": [
+            5.485000133514404,
+            -5.375,
+            0.09
+          ],
+          "target": [
+            5.059999942779541,
+            -5.375,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_6",
+          "position": [
+            0.044999994337558746,
+            -0.8675000071525574,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -0.8675000071525574,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_7",
+          "position": [
+            0.044999994337558746,
+            -1.5950000286102295,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -1.5950000286102295,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "RISER_LIGHT_8",
+          "position": [
+            0.044999994337558746,
+            -2.322499990463257,
+            0.09
+          ],
+          "target": [
+            -0.3799999952316284,
+            -2.322499990463257,
+            -0.025
+          ],
+          "power_w": 3.4,
+          "size_m": 0.1,
+          "group": "common"
+        },
+        {
+          "id": "PLANT_UPLIGHT_0",
+          "position": [
+            0.65,
+            -0.94,
+            0.32
+          ],
+          "target": [
+            0.65,
+            -0.72,
+            1.8
+          ],
+          "power_w": 20,
+          "size_m": 0.09,
+          "group": "common"
+        },
+        {
+          "id": "PLANT_UPLIGHT_1",
+          "position": [
+            5.23,
+            -0.96,
+            0.32
+          ],
+          "target": [
+            5.23,
+            -0.74,
+            1.8
+          ],
+          "power_w": 20,
+          "size_m": 0.09,
+          "group": "common"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_0",
+          "position": [
+            1.1,
+            -0.9,
+            2.68
+          ],
+          "target": [
+            1.1,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_1",
+          "position": [
+            1.1,
+            -2.28,
+            2.68
+          ],
+          "target": [
+            1.1,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_2",
+          "position": [
+            2.98,
+            -0.9,
+            2.68
+          ],
+          "target": [
+            2.98,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_3",
+          "position": [
+            2.98,
+            -2.28,
+            2.68
+          ],
+          "target": [
+            2.98,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_4",
+          "position": [
+            4.86,
+            -0.9,
+            2.68
+          ],
+          "target": [
+            4.86,
+            -0.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_5",
+          "position": [
+            4.86,
+            -2.28,
+            2.68
+          ],
+          "target": [
+            4.86,
+            -2.28,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_6",
+          "position": [
+            6.6,
+            -0.7,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -0.7,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_7",
+          "position": [
+            6.6,
+            -2.3,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -2.3,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_8",
+          "position": [
+            6.6,
+            -3.9,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -3.9,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_DOWNLIGHT_9",
+          "position": [
+            6.6,
+            -5.55,
+            2.535
+          ],
+          "target": [
+            6.6,
+            -5.55,
+            0.22
+          ],
+          "power_w": 40,
+          "size_m": 0.11,
+          "group": "d3_oscuro_paneles_claros"
+        }
+      ],
+      "naturalLight": null,
+      "water": {
+        "level": -0.14,
+        "reflection": "planar",
+        "time": 0,
+        "absorptionApproximation": true
+      },
+      "collisions": [
+        {
+          "id": "d3_oscuro_paneles_claros_post_0",
+          "type": "circle",
+          "x": 0.3,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_1",
+          "type": "circle",
+          "x": 0.3,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_2",
+          "type": "circle",
+          "x": 5.7,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_3",
+          "type": "circle",
+          "x": 5.7,
+          "y": 2.86,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_4",
+          "type": "circle",
+          "x": 7.08,
+          "y": 0.35,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_5",
+          "type": "circle",
+          "x": 5.74,
+          "y": 5.98,
+          "radius": 0.13
+        },
+        {
+          "id": "d3_oscuro_paneles_claros_post_6",
+          "type": "circle",
+          "x": 7.07,
+          "y": 7.31786,
+          "radius": 0.13
+        }
+      ],
+      "render": "assets/renders/d3_oscuro_paneles_claros__night.jpg"
+    }
+  },
+  "lightingContract": {
+    "diffuse": "Cycles DIFFUSE direct+indirect without COLOR: E/pi, multiplied once by albedo at runtime",
+    "specular": "Realtime PBR environment plus planar pool reflection; no unshadowed point-light surrogates",
+    "environmentDiffuse": "Included in Cycles; all runtime material diffuse overwritten",
+    "daySun": "SUN_DAY direct and indirect diffuse baked once; no runtime diffuse sun",
+    "ao": "None",
+    "toneMapping": "AgX once; output sRGB; exposure multiplier 1.2",
+    "lightmap": {
+      "format": "OpenEXR ZIP half float",
+      "colorSpace": "Linear Rec.709 / linear-sRGB",
+      "channel": 1,
+      "gltfAttribute": "TEXCOORD_1",
+      "threeAttribute": "uv1",
+      "flipY": true,
+      "scale": 1,
+      "denoising": "Blender compositor Denoise on scene-linear irradiance; texture albedo remains separate"
+    }
+  },
+  "navigation": {
+    "bounds": [
+      -1.1,
+      0.18,
+      7.220000000000001,
+      12.120000000000001
+    ],
+    "pool": [
+      [
+        6.96367,
+        8.06839
+      ],
+      [
+        6.99928,
+        8.18923
+      ],
+      [
+        7.02705,
+        8.31217
+      ],
+      [
+        7.04721,
+        8.43687
+      ],
+      [
+        7.05999,
+        8.56297
+      ],
+      [
+        7.0656,
+        8.69014
+      ],
+      [
+        7.06427,
+        8.81803
+      ],
+      [
+        7.05623,
+        8.94629
+      ],
+      [
+        7.0417,
+        9.07459
+      ],
+      [
+        7.0209,
+        9.20256
+      ],
+      [
+        6.99407,
+        9.32988
+      ],
+      [
+        6.96142,
+        9.45619
+      ],
+      [
+        6.92318,
+        9.58115
+      ],
+      [
+        6.87957,
+        9.70441
+      ],
+      [
+        6.83083,
+        9.82563
+      ],
+      [
+        6.77716,
+        9.94446
+      ],
+      [
+        6.7188,
+        10.06056
+      ],
+      [
+        6.65585,
+        10.17353
+      ],
+      [
+        6.58828,
+        10.28297
+      ],
+      [
+        6.51608,
+        10.38845
+      ],
+      [
+        6.43924,
+        10.48954
+      ],
+      [
+        6.35773,
+        10.58582
+      ],
+      [
+        6.27154,
+        10.67687
+      ],
+      [
+        6.18066,
+        10.76227
+      ],
+      [
+        6.08506,
+        10.84159
+      ],
+      [
+        5.98473,
+        10.91441
+      ],
+      [
+        5.87966,
+        10.98033
+      ],
+      [
+        5.77006,
+        11.03911
+      ],
+      [
+        5.65639,
+        11.09075
+      ],
+      [
+        5.53913,
+        11.13527
+      ],
+      [
+        5.41873,
+        11.17265
+      ],
+      [
+        5.29568,
+        11.20291
+      ],
+      [
+        5.17043,
+        11.22604
+      ],
+      [
+        5.04345,
+        11.24206
+      ],
+      [
+        4.91522,
+        11.25096
+      ],
+      [
+        4.78621,
+        11.25275
+      ],
+      [
+        4.65688,
+        11.24744
+      ],
+      [
+        4.52783,
+        11.23494
+      ],
+      [
+        4.39988,
+        11.21508
+      ],
+      [
+        4.27384,
+        11.18766
+      ],
+      [
+        4.15053,
+        11.15248
+      ],
+      [
+        4.03079,
+        11.10935
+      ],
+      [
+        3.91542,
+        11.05806
+      ],
+      [
+        3.80526,
+        10.99843
+      ],
+      [
+        3.70113,
+        10.93026
+      ],
+      [
+        3.60385,
+        10.85336
+      ],
+      [
+        3.51409,
+        10.76768
+      ],
+      [
+        3.43189,
+        10.67394
+      ],
+      [
+        3.3571,
+        10.57307
+      ],
+      [
+        3.28957,
+        10.46599
+      ],
+      [
+        3.22914,
+        10.35361
+      ],
+      [
+        3.17566,
+        10.23686
+      ],
+      [
+        3.12898,
+        10.11667
+      ],
+      [
+        3.08894,
+        9.99395
+      ],
+      [
+        3.0554,
+        9.86962
+      ],
+      [
+        3.0282,
+        9.74461
+      ],
+      [
+        3.00716,
+        9.61979
+      ],
+      [
+        2.99173,
+        9.49546
+      ],
+      [
+        2.98111,
+        9.37152
+      ],
+      [
+        2.97448,
+        9.24786
+      ],
+      [
+        2.97104,
+        9.12437
+      ],
+      [
+        2.96997,
+        9.00093
+      ],
+      [
+        2.97047,
+        8.87745
+      ],
+      [
+        2.97173,
+        8.7538
+      ],
+      [
+        2.97294,
+        8.62989
+      ],
+      [
+        2.97328,
+        8.50559
+      ],
+      [
+        2.97195,
+        8.38081
+      ],
+      [
+        2.96814,
+        8.25543
+      ],
+      [
+        2.96103,
+        8.12934
+      ],
+      [
+        2.94983,
+        8.00243
+      ],
+      [
+        2.93371,
+        7.8746
+      ],
+      [
+        2.91274,
+        7.74589
+      ],
+      [
+        2.89316,
+        7.61755
+      ],
+      [
+        2.88392,
+        7.49133
+      ],
+      [
+        2.89401,
+        7.369
+      ],
+      [
+        2.93235,
+        7.25234
+      ],
+      [
+        3.00301,
+        7.14719
+      ],
+      [
+        3.10035,
+        7.06737
+      ],
+      [
+        3.21669,
+        7.02101
+      ],
+      [
+        3.34214,
+        7.00118
+      ],
+      [
+        3.46775,
+        6.99929
+      ],
+      [
+        3.59192,
+        7.00964
+      ],
+      [
+        3.7158,
+        7.02766
+      ],
+      [
+        3.84037,
+        7.0485
+      ],
+      [
+        3.9652,
+        7.06591
+      ],
+      [
+        4.08942,
+        7.0731
+      ],
+      [
+        4.21218,
+        7.06351
+      ],
+      [
+        4.33347,
+        7.03729
+      ],
+      [
+        4.45429,
+        7.00271
+      ],
+      [
+        4.57571,
+        6.96854
+      ],
+      [
+        4.69853,
+        6.94174
+      ],
+      [
+        4.82251,
+        6.9231
+      ],
+      [
+        4.94724,
+        6.91204
+      ],
+      [
+        5.07229,
+        6.90796
+      ],
+      [
+        5.19722,
+        6.9103
+      ],
+      [
+        5.32169,
+        6.91858
+      ],
+      [
+        5.44562,
+        6.93266
+      ],
+      [
+        5.56897,
+        6.9525
+      ],
+      [
+        5.69173,
+        6.97804
+      ],
+      [
+        5.81386,
+        7.00923
+      ],
+      [
+        5.93497,
+        7.04623
+      ],
+      [
+        6.05401,
+        7.08961
+      ],
+      [
+        6.16987,
+        7.13999
+      ],
+      [
+        6.28144,
+        7.19798
+      ],
+      [
+        6.38758,
+        7.26419
+      ],
+      [
+        6.4872,
+        7.33923
+      ],
+      [
+        6.57928,
+        7.42353
+      ],
+      [
+        6.6635,
+        7.51635
+      ],
+      [
+        6.73976,
+        7.61656
+      ],
+      [
+        6.80799,
+        7.723
+      ],
+      [
+        6.86809,
+        7.83453
+      ],
+      [
+        6.92,
+        7.95
+      ]
+    ],
+    "deck": [
+      [
+        0.12,
+        0.14
+      ],
+      [
+        7.25,
+        0.14
+      ],
+      [
+        7.25,
+        7.75786
+      ],
+      [
+        5.56,
+        6.15
+      ],
+      [
+        5.56,
+        3.05
+      ],
+      [
+        0.12,
+        3.05
+      ]
+    ],
+    "deckHeight": 0.22,
+    "eyeHeight": 1.65,
+    "radius": 0.2,
+    "commonCollisions": [
+      {
+        "id": "chair_0",
+        "type": "circle",
+        "x": 1.77,
+        "y": 1.68,
+        "radius": 0.45
+      },
+      {
+        "id": "chair_1",
+        "type": "circle",
+        "x": 4.029999999999999,
+        "y": 1.68,
+        "radius": 0.45
+      },
+      {
+        "id": "chair_2",
+        "type": "circle",
+        "x": 2.6799999999999997,
+        "y": 2.56,
+        "radius": 0.45
+      },
+      {
+        "id": "chair_3",
+        "type": "circle",
+        "x": 3.12,
+        "y": 0.7999999999999999,
+        "radius": 0.45
+      },
+      {
+        "id": "table",
+        "type": "box",
+        "min": [
+          2.12,
+          1.18
+        ],
+        "max": [
+          3.6799999999999997,
+          2.1799999999999997
+        ]
+      },
+      {
+        "id": "lounger",
+        "type": "box",
+        "min": [
+          6.06,
+          2.955209903717041
+        ],
+        "max": [
+          6.88,
+          5.07
+        ]
+      },
+      {
+        "id": "egg_chair",
+        "type": "circle",
+        "x": 6.48,
+        "y": 1.11,
+        "radius": 0.62
+      },
+      {
+        "id": "planter_0",
+        "type": "circle",
+        "x": 0.65,
+        "y": 0.72,
+        "radius": 0.41
+      },
+      {
+        "id": "planter_1",
+        "type": "circle",
+        "x": 5.23,
+        "y": 0.74,
+        "radius": 0.41
+      }
+    ]
+  },
+  "profiles": {
+    "high": {
+      "pixelRatio": 1.75,
+      "reflectionSize": 512,
+      "reflectionEvery": 1,
+      "description": "Mayor nitidez y reflejos continuos"
+    },
+    "balanced": {
+      "pixelRatio": 1.25,
+      "reflectionSize": 512,
+      "reflectionEvery": 2,
+      "description": "Nitidez media y reflejos alternos"
+    },
+    "low": {
+      "pixelRatio": 0.85,
+      "reflectionSize": 512,
+      "reflectionEvery": 4,
+      "description": "Menor resolución y reflejos espaciados"
+    }
+  },
+  "provenance": {
+    "dimensions": "inferred_not_measured",
+    "night": "design_simulation",
+    "day": "sunny_user_request; sun direction is an authored choice, not a measured orientation",
+    "poolFarEdgeAndDepth": "conservative_estimate",
+    "panel": "diffuse_translucent_approximation"
+  },
+  "assetsLicense": "Original geometry/textures generated locally; Three.js MIT; no external stock assets"
+}

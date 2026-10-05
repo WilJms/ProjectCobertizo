@@ -1,0 +1,122 @@
+[
+  {
+    "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_D1_MADERA_DOS_AGUAS.exr",
+    "sourceSha256": "fdcddb648d9570fef648f4588a6bd3dd1126b6048ee8fb39739f358c91c7c39c",
+    "outputSha256": "9b67bcb9a75c86c1b320a995ed768772d8dfeb75740f06300c20d538779acb50",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_FIXTURES.exr",
+    "sourceSha256": "b3455e4543eadacf4255b2d53a784836838cbc7eeb172b754cbc9d8004f1a867",
+    "outputSha256": "1364c06a5ee8ebad731e9bbbadf60005cd78610587c1f4f5fa942a2556b62bb9",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_FURNITURE.exr",
+    "sourceSha256": "9c5ccdb8cb6b9bc206d68119587c08276851959d0920952f629df68c66148938",
+    "outputSha256": "d70744c1396934dd50252693f6c1a023f06f775f9221c3d09e9546cb5ca96199",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_SURFACES.exr",
+    "sourceSha256": "2dd5506efb5a14c595fee901e58b378917f4525efc183bb59dc25f7a86085508",
+    "outputSha256": "9ed52f90583dd7d38e9a656a58e9495efe08b90c5eaba8d5546137a0e64ca31c",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_VEGETATION.exr",
+    "sourceSha256": "9574f41fafa23aaec5749dbbe895319b06b5e6672f0fa62e99b58af13a5095ff",
+    "outputSha256": "e4dace00fd2fd3c9d93b4cf45eb818315f37d6e439d34eef03de564728237cb7",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_D2_OSCURO_CIELO_MADERA.exr",
+    "sourceSha256": "5b1b4e139daaa8c3df9a675b812fceb31ab1ef18a910f54ba218161ab54b716b",
+    "outputSha256": "be801a11597a4d04368af9559d6078a6ef91040f3d44ac8461dbceb54062834d",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_FIXTURES.exr",
+    "sourceSha256": "407c8fded6c59f44f9077b662609dc234fd7b11119c41a5357e00c8b7aa53c7e",
+    "outputSha256": "a122117cea0457ceebca95ea43151ba7b30954ee0218cb30a5c8a478979df565",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_FURNITURE.exr",
+    "sourceSha256": "ee3ecf7794e4c04dd8c94bf5ae124629caca207f05f00a3f3d80e55632826f09",
+    "outputSha256": "379968b6f28f8e0093796f06b2ab305e96f6914f0ac24d90544d4b11dcb1915f",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_SURFACES.exr",
+    "sourceSha256": "0ecbebd986ce3bff8ce6ea48cbe17159efff9d251c8bfef572338b797652b0ae",
+    "outputSha256": "97d0af430bf8b3df7461a2725476014135dba414ab09278cc8fa93ac32b155c6",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_VEGETATION.exr",
+    "sourceSha256": "21e66d17628f227704b9505142e20b04818f50b1c650376253d8d7da4c52b9cc",
+    "outputSha256": "ba1638c218c4cc5334b6865f15acf8477f996555e9d9b233989ca3147e4c6c80",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_D3_OSCURO_PANELES_CLAROS.exr",
+    "sourceSha256": "89f03cc92aacdf3e3c9db5be9eaea21e2afd3cc1bb7a902252e9652a67fb5547",
+    "outputSha256": "8625009f9cfc7c75e5425b63cbd0170634b68001fa746741795320ecdc3ee7a2",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_FIXTURES.exr",
+    "sourceSha256": "6ea91338b641e2e5ab860c5d8b1351ce2ccc2ac627ce2ca1caeaa8ffbc8035a7",
+    "outputSha256": "eb6b1d9da6d22487ffc1bbab56d012b972c21c27899319988e60ec552dbbf1c0",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_FURNITURE.exr",
+    "sourceSha256": "08939abf18aa743fc1cccee912bc30687faea239c1f7a7a630bd594fbdc69a4b",
+    "outputSha256": "27c28dab7456d6bc9429ac44f80f6c854472eb17f6cd08ee1a03be8a243c586e",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_SURFACES.exr",
+    "sourceSha256": "2ef84489193d102ce6e594b995405c4e873beef944b2290548f51280d1aa6d75",
+    "outputSha256": "b4b81b94f2afa9472af94cd17ddface8f448c5e07cfba146add3266228c0160c",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_VEGETATION.exr",
+    "sourceSha256": "acf1f2b534b3eb60fdbe50f64f3d2e5d55b204a67d7a601f04483f353dcf10d3",
+    "outputSha256": "68e566bb6513bb42ec14c3e20996519090a2f597263b1d5bec2b93f02bcd06ec",
+    "method": "Blender compositor Denoise; scene-linear irradiance, no display transform, color-only guide",
+    "width": 1024,
+    "height": 1024
+  }
+]

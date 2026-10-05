@@ -1,0 +1,30 @@
+[
+  {
+    "frames": 233,
+    "seconds": 6.0215,
+    "states": [
+      {
+        "key": "d1_madera_dos_aguas__day__high",
+        "root": "be738178-03c6-43e9-a15c-234e73d57962",
+        "emission": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "frames": 247,
+    "seconds": 6.003599999904632,
+    "states": [
+      {
+        "key": "d1_madera_dos_aguas__night__high",
+        "root": "b5752bb1-fab3-4fd8-9dba-37bc5bbea6ef",
+        "emission": [
+          5,
+          5
+        ]
+      }
+    ]
+  }
+]

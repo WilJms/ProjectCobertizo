@@ -1,0 +1,25 @@
+{
+  "base": "http://127.0.0.1:4173/ProjectCobertizo/",
+  "spatialRevision": "2026-10-04-detail-corrections-v3",
+  "sourceSha256": "ca9df64c8d2134e8b27b01cdc38b623411fca929a3e99c11b3c7feb9ebca6592",
+  "statesChecked": 6,
+  "prefixChecked": true,
+  "movement": {
+    "initial": [
+      1.7000000476837158,
+      1.7300000190734863,
+      8.300000190734863
+    ],
+    "after": [
+      1.6461310303926862,
+      1.6534281709667022,
+      7.707443755468054
+    ]
+  },
+  "errors": [],
+  "failures": [],
+  "resources": 77,
+  "httpResources": 41,
+  "inMemoryResources": 36,
+  "inMemoryNote": "Embedded GLB textures use blob/data URLs and are not remote path requests"
+}

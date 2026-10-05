@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-04",
+  "url": "http://127.0.0.1:5173/ProjectCobertizo/?quality=high",
+  "title": "Patio · Tres cobertizos",
+  "statesVisuallyInspected": [
+    "day",
+    "night",
+    "day"
+  ],
+  "uiChangesVerified": [
+    "Day/night checked state",
+    "Loading completes",
+    "Compact proposal selector"
+  ],
+  "consoleWarningsAndErrors": [],
+  "evidence": [
+    "iab-final-day.jpg",
+    "iab-final-night.jpg"
+  ],
+  "method": "Native Codex in-app browser via CUA; screenshot and accessibility state checked",
+  "physicalPhone": false
+}

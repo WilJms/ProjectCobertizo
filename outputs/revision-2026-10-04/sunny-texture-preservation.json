@@ -1,0 +1,39 @@
+{
+  "unchangedAgainstPreviousDelivery": [
+    "coping_color.jpg",
+    "artificial_normal.png",
+    "artificial_color.jpg",
+    "stucco_blue_normal.png",
+    "sky_night.jpg",
+    "grass_color.jpg",
+    "fabric_red_color.jpg",
+    "concrete_color.jpg",
+    "wood_new_color.jpg",
+    "aggregate_color.jpg",
+    "coping_roughness.png",
+    "stucco_blue_color.jpg",
+    "wood_new_roughness.png",
+    "wood_old_color.jpg",
+    "concrete_normal.png",
+    "grass_roughness.png",
+    "coping_normal.png",
+    "concrete_roughness.png",
+    "aggregate_normal.png",
+    "fabric_grey_color.jpg",
+    "aggregate_roughness.png",
+    "grass_normal.png",
+    "fabric_red_normal.png",
+    "artificial_roughness.png",
+    "fabric_grey_normal.png",
+    "wood_new_normal.png",
+    "fabric_red_roughness.png",
+    "wood_old_roughness.png",
+    "fabric_grey_roughness.png",
+    "wood_old_normal.png",
+    "stucco_blue_roughness.png"
+  ],
+  "intentionallyChanged": [
+    "sky_day.jpg",
+    "LICENSE.txt"
+  ]
+}

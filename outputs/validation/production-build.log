@@ -1,0 +1,14 @@
+
+> patio-cobertizos@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 19 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.58 kB │ gzip:   0.37 kB
+dist/assets/index-BoGQQdTL.css    8.13 kB │ gzip:   2.47 kB
+dist/assets/index-DJb9Wjhg.js   698.35 kB │ gzip: 182.93 kB
+
+✓ built in 507ms

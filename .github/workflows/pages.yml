@@ -1,0 +1,50 @@
+name: Publicar recorrido en GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '26.5.1'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+        working-directory: web
+      - run: npm test
+        working-directory: web
+      - name: Build con prefijo del repositorio
+        working-directory: web
+        env:
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+        run: |
+          if [[ "$REPOSITORY_NAME" == *.github.io ]]; then
+            BASE_PATH=/ npm run build
+          else
+            BASE_PATH="/$REPOSITORY_NAME/" npm run build
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

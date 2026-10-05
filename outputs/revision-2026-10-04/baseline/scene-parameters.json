@@ -1,0 +1,1228 @@
+{
+  "schema_version": "1.0",
+  "status": "publish_ready_estimated_reconstruction",
+  "prepared_on": "2026-10-03",
+  "notes": "Escala inferida, no medida. Muro azul en Y=0; cerco alto en X=7.4. Evidencia y límites: outputs/spatial-analysis/spatial-inference.json.",
+  "constraints": {
+    "additional_capture_requests_allowed": false,
+    "measured_dimensions_available": false,
+    "whole_patio_pool_and_walls_required": true,
+    "detailed_house_model_in_scope": false,
+    "free_navigation_required": true
+  },
+  "authoring": {
+    "length_unit": "m",
+    "lengths_are_estimates": true,
+    "blender_up_axis": "Z",
+    "web_up_axis": "Y",
+    "origin_description": "Esquina izquierda del muro azul, a nivel del pavimento",
+    "axis_directions_description": "Parámetros de planta: X a derecha, Y hacia casa. Blender: (X,-Y,Z). Web: (X,Z,Y). Exportador glTF realiza solamente Z-up→Y-up.",
+    "export_transform_verified": true,
+    "random_seed": 7321
+  },
+  "scale_anchor": {
+    "type": "optional_provisional_paving_module_seed",
+    "seed_value_m": 0.5,
+    "used_value_m": 0.45,
+    "status": "reestimated_visual_module",
+    "confidence": "low_absolute_medium_relative",
+    "assumption_id": "A-001",
+    "instruction": "Puede usarse como punto de partida; validar proporciones globales e inferir la escala antes de cerrar S01. Registrar el valor realmente adoptado."
+  },
+  "geometry": {
+    "patio_boundary_xy_m": [
+      [
+        0,
+        0
+      ],
+      [
+        7.4,
+        0
+      ],
+      [
+        7.4,
+        12.3
+      ],
+      [
+        0,
+        12.3
+      ]
+    ],
+    "pool_outline_xy_m": [
+      [
+        6.96367,
+        8.06839
+      ],
+      [
+        6.99928,
+        8.18923
+      ],
+      [
+        7.02705,
+        8.31217
+      ],
+      [
+        7.04721,
+        8.43687
+      ],
+      [
+        7.05999,
+        8.56297
+      ],
+      [
+        7.0656,
+        8.69014
+      ],
+      [
+        7.06427,
+        8.81803
+      ],
+      [
+        7.05623,
+        8.94629
+      ],
+      [
+        7.0417,
+        9.07459
+      ],
+      [
+        7.0209,
+        9.20256
+      ],
+      [
+        6.99407,
+        9.32988
+      ],
+      [
+        6.96142,
+        9.45619
+      ],
+      [
+        6.92318,
+        9.58115
+      ],
+      [
+        6.87957,
+        9.70441
+      ],
+      [
+        6.83083,
+        9.82563
+      ],
+      [
+        6.77716,
+        9.94446
+      ],
+      [
+        6.7188,
+        10.06056
+      ],
+      [
+        6.65585,
+        10.17353
+      ],
+      [
+        6.58828,
+        10.28297
+      ],
+      [
+        6.51608,
+        10.38845
+      ],
+      [
+        6.43924,
+        10.48954
+      ],
+      [
+        6.35773,
+        10.58582
+      ],
+      [
+        6.27154,
+        10.67687
+      ],
+      [
+        6.18066,
+        10.76227
+      ],
+      [
+        6.08506,
+        10.84159
+      ],
+      [
+        5.98473,
+        10.91441
+      ],
+      [
+        5.87966,
+        10.98033
+      ],
+      [
+        5.77006,
+        11.03911
+      ],
+      [
+        5.65639,
+        11.09075
+      ],
+      [
+        5.53913,
+        11.13527
+      ],
+      [
+        5.41873,
+        11.17265
+      ],
+      [
+        5.29568,
+        11.20291
+      ],
+      [
+        5.17043,
+        11.22604
+      ],
+      [
+        5.04345,
+        11.24206
+      ],
+      [
+        4.91522,
+        11.25096
+      ],
+      [
+        4.78621,
+        11.25275
+      ],
+      [
+        4.65688,
+        11.24744
+      ],
+      [
+        4.52783,
+        11.23494
+      ],
+      [
+        4.39988,
+        11.21508
+      ],
+      [
+        4.27384,
+        11.18766
+      ],
+      [
+        4.15053,
+        11.15248
+      ],
+      [
+        4.03079,
+        11.10935
+      ],
+      [
+        3.91542,
+        11.05806
+      ],
+      [
+        3.80526,
+        10.99843
+      ],
+      [
+        3.70113,
+        10.93026
+      ],
+      [
+        3.60385,
+        10.85336
+      ],
+      [
+        3.51409,
+        10.76768
+      ],
+      [
+        3.43189,
+        10.67394
+      ],
+      [
+        3.3571,
+        10.57307
+      ],
+      [
+        3.28957,
+        10.46599
+      ],
+      [
+        3.22914,
+        10.35361
+      ],
+      [
+        3.17566,
+        10.23686
+      ],
+      [
+        3.12898,
+        10.11667
+      ],
+      [
+        3.08894,
+        9.99395
+      ],
+      [
+        3.0554,
+        9.86962
+      ],
+      [
+        3.0282,
+        9.74461
+      ],
+      [
+        3.00716,
+        9.61979
+      ],
+      [
+        2.99173,
+        9.49546
+      ],
+      [
+        2.98111,
+        9.37152
+      ],
+      [
+        2.97448,
+        9.24786
+      ],
+      [
+        2.97104,
+        9.12437
+      ],
+      [
+        2.96997,
+        9.00093
+      ],
+      [
+        2.97047,
+        8.87745
+      ],
+      [
+        2.97173,
+        8.7538
+      ],
+      [
+        2.97294,
+        8.62989
+      ],
+      [
+        2.97328,
+        8.50559
+      ],
+      [
+        2.97195,
+        8.38081
+      ],
+      [
+        2.96814,
+        8.25543
+      ],
+      [
+        2.96103,
+        8.12934
+      ],
+      [
+        2.94983,
+        8.00243
+      ],
+      [
+        2.93371,
+        7.8746
+      ],
+      [
+        2.91274,
+        7.74589
+      ],
+      [
+        2.89316,
+        7.61755
+      ],
+      [
+        2.88392,
+        7.49133
+      ],
+      [
+        2.89401,
+        7.369
+      ],
+      [
+        2.93235,
+        7.25234
+      ],
+      [
+        3.00301,
+        7.14719
+      ],
+      [
+        3.10035,
+        7.06737
+      ],
+      [
+        3.21669,
+        7.02101
+      ],
+      [
+        3.34214,
+        7.00118
+      ],
+      [
+        3.46775,
+        6.99929
+      ],
+      [
+        3.59192,
+        7.00964
+      ],
+      [
+        3.7158,
+        7.02766
+      ],
+      [
+        3.84037,
+        7.0485
+      ],
+      [
+        3.9652,
+        7.06591
+      ],
+      [
+        4.08942,
+        7.0731
+      ],
+      [
+        4.21218,
+        7.06351
+      ],
+      [
+        4.33347,
+        7.03729
+      ],
+      [
+        4.45429,
+        7.00271
+      ],
+      [
+        4.57571,
+        6.96854
+      ],
+      [
+        4.69853,
+        6.94174
+      ],
+      [
+        4.82251,
+        6.9231
+      ],
+      [
+        4.94724,
+        6.91204
+      ],
+      [
+        5.07229,
+        6.90796
+      ],
+      [
+        5.19722,
+        6.9103
+      ],
+      [
+        5.32169,
+        6.91858
+      ],
+      [
+        5.44562,
+        6.93266
+      ],
+      [
+        5.56897,
+        6.9525
+      ],
+      [
+        5.69173,
+        6.97804
+      ],
+      [
+        5.81386,
+        7.00923
+      ],
+      [
+        5.93497,
+        7.04623
+      ],
+      [
+        6.05401,
+        7.08961
+      ],
+      [
+        6.16987,
+        7.13999
+      ],
+      [
+        6.28144,
+        7.19798
+      ],
+      [
+        6.38758,
+        7.26419
+      ],
+      [
+        6.4872,
+        7.33923
+      ],
+      [
+        6.57928,
+        7.42353
+      ],
+      [
+        6.6635,
+        7.51635
+      ],
+      [
+        6.73976,
+        7.61656
+      ],
+      [
+        6.80799,
+        7.723
+      ],
+      [
+        6.86809,
+        7.83453
+      ],
+      [
+        6.92,
+        7.95
+      ]
+    ],
+    "pool_depth_m": 1.4,
+    "pool_water_level_m": -0.14,
+    "pool_border_width_m": 0.38,
+    "paving_polygons_xy_m": [
+      [
+        [
+          0,
+          0.25
+        ],
+        [
+          5.9,
+          0.25
+        ],
+        [
+          5.9,
+          2.95
+        ],
+        [
+          0.9,
+          2.95
+        ],
+        [
+          0.9,
+          12.3
+        ],
+        [
+          0,
+          12.3
+        ]
+      ]
+    ],
+    "grass_polygons_xy_m": [
+      [
+        [
+          0.9,
+          2.95
+        ],
+        [
+          5.9,
+          2.95
+        ],
+        [
+          5.9,
+          6.25
+        ],
+        [
+          7.0,
+          6.25
+        ],
+        [
+          7.0,
+          12.3
+        ],
+        [
+          0.9,
+          12.3
+        ]
+      ]
+    ],
+    "side_strip_polygons_xy_m": [
+      [
+        [
+          5.9,
+          0
+        ],
+        [
+          7.4,
+          0
+        ],
+        [
+          7.4,
+          12.3
+        ],
+        [
+          5.9,
+          12.3
+        ]
+      ]
+    ],
+    "deck_footprint_xy_m": [
+      [
+        0.12,
+        0.14
+      ],
+      [
+        7.25,
+        0.14
+      ],
+      [
+        7.25,
+        6.15
+      ],
+      [
+        5.86,
+        6.15
+      ],
+      [
+        5.86,
+        3.05
+      ],
+      [
+        0.12,
+        3.05
+      ]
+    ],
+    "deck_elevation_m": 0.22,
+    "fence_segments": [
+      {
+        "id": "blue_wall",
+        "from": [
+          0,
+          0
+        ],
+        "to": [
+          7.4,
+          0
+        ],
+        "height": 1.55
+      },
+      {
+        "id": "low_slats",
+        "from": [
+          3.65,
+          0
+        ],
+        "to": [
+          7.4,
+          0
+        ],
+        "bottom": 0.89,
+        "height": 0.69
+      },
+      {
+        "id": "high_slats",
+        "from": [
+          7.4,
+          0
+        ],
+        "to": [
+          7.4,
+          12.3
+        ],
+        "height": 2.48
+      }
+    ],
+    "level_changes": [
+      {
+        "id": "deck_step",
+        "height_m": 0.22,
+        "policy": "step-up with smoothed camera eye height"
+      }
+    ],
+    "house_side_boundary_solution": "Plano azul simple X=0; límite próximo Y=12.3 inferido. Sin casa detallada.",
+    "site_width_m": 7.4,
+    "site_depth_m": 12.3,
+    "main_deck_rect_m": [
+      0.12,
+      0.14,
+      5.86,
+      3.05
+    ],
+    "wing_deck_rect_m": [
+      5.86,
+      0.14,
+      7.25,
+      6.15
+    ],
+    "pool_marker_position_xy_m": [
+      3.88,
+      6.68
+    ],
+    "stepping_stones_xy_m": [
+      [
+        2.18,
+        8.0
+      ],
+      [
+        2.05,
+        8.85
+      ],
+      [
+        2.12,
+        9.75
+      ]
+    ],
+    "planter_positions_xy_m": [
+      [
+        0.65,
+        0.72
+      ],
+      [
+        5.23,
+        0.74
+      ]
+    ],
+    "table_position_xy_m": [
+      2.9,
+      1.68
+    ],
+    "egg_chair_position_xy_m": [
+      6.48,
+      1.11
+    ],
+    "lounger_position_xy_m": [
+      6.47,
+      4.13
+    ]
+  },
+  "designs": [
+    {
+      "id": "d1_madera_dos_aguas",
+      "status": "modeled_and_exported_spatial_revision_v2",
+      "reference_id": "d1_madera_dos_aguas",
+      "parameters": {
+        "post_positions_xy_m": [
+          [
+            0.3,
+            0.35
+          ],
+          [
+            0.3,
+            2.86
+          ],
+          [
+            5.7,
+            0.35
+          ],
+          [
+            5.7,
+            2.86
+          ],
+          [
+            7.08,
+            0.35
+          ],
+          [
+            5.99,
+            5.96
+          ],
+          [
+            7.08,
+            5.96
+          ]
+        ],
+        "post_sections_m": [
+          0.16,
+          0.16
+        ],
+        "eave_heights_m": [
+          2.72,
+          2.53
+        ],
+        "roof_outline_xy_m": [
+          [
+            0.12,
+            0.14
+          ],
+          [
+            7.25,
+            0.14
+          ],
+          [
+            7.25,
+            6.15
+          ],
+          [
+            5.86,
+            6.15
+          ],
+          [
+            5.86,
+            3.05
+          ],
+          [
+            0.12,
+            3.05
+          ]
+        ],
+        "roof_slope_degrees": 24,
+        "ridge_height_m": 3.91
+      },
+      "light_inventory": [
+        {
+          "category": "ceiling_downlight",
+          "count": 10,
+          "evidence": "Approximately 6 visible over main roof and 4 over right wing; regular spacing inferred."
+        },
+        {
+          "category": "existing_fence_sconce",
+          "count": 8,
+          "evidence": "Six visible on tall return in R01 plus two on low blue-wall screen in R02."
+        },
+        {
+          "category": "deck_riser",
+          "count": 9,
+          "evidence": "Visible repeated lights on exposed deck edges; spacing regularized."
+        },
+        {
+          "category": "plant_uplight",
+          "count": 2,
+          "evidence": "One at either planter in design concepts."
+        }
+      ],
+      "collisions_exported": true
+    },
+    {
+      "id": "d2_oscuro_cielo_madera",
+      "status": "modeled_and_exported_spatial_revision_v2",
+      "reference_id": "d2_oscuro_cielo_madera",
+      "parameters": {
+        "post_positions_xy_m": [
+          [
+            0.3,
+            0.35
+          ],
+          [
+            0.3,
+            2.86
+          ],
+          [
+            5.7,
+            0.35
+          ],
+          [
+            5.7,
+            2.86
+          ],
+          [
+            7.08,
+            0.35
+          ],
+          [
+            5.99,
+            5.96
+          ],
+          [
+            7.08,
+            5.96
+          ]
+        ],
+        "post_sections_m": [
+          0.16,
+          0.16
+        ],
+        "eave_heights_m": [
+          2.72,
+          2.53
+        ],
+        "roof_outline_xy_m": [
+          [
+            0.12,
+            0.14
+          ],
+          [
+            7.25,
+            0.14
+          ],
+          [
+            7.25,
+            6.15
+          ],
+          [
+            5.86,
+            6.15
+          ],
+          [
+            5.86,
+            3.05
+          ],
+          [
+            0.12,
+            3.05
+          ]
+        ],
+        "roof_slope_degrees": 2,
+        "ridge_height_m": 2.84
+      },
+      "light_inventory": [
+        {
+          "category": "ceiling_downlight",
+          "count": 10,
+          "evidence": "Approximately 6 visible over main roof and 4 over right wing; regular spacing inferred."
+        },
+        {
+          "category": "existing_fence_sconce",
+          "count": 8,
+          "evidence": "Six visible on tall return in R01 plus two on low blue-wall screen in R02."
+        },
+        {
+          "category": "deck_riser",
+          "count": 9,
+          "evidence": "Visible repeated lights on exposed deck edges; spacing regularized."
+        },
+        {
+          "category": "plant_uplight",
+          "count": 2,
+          "evidence": "One at either planter in design concepts."
+        }
+      ],
+      "collisions_exported": true
+    },
+    {
+      "id": "d3_oscuro_paneles_claros",
+      "status": "modeled_and_exported_spatial_revision_v2",
+      "reference_id": "d3_oscuro_paneles_claros",
+      "parameters": {
+        "post_positions_xy_m": [
+          [
+            0.3,
+            0.35
+          ],
+          [
+            0.3,
+            2.86
+          ],
+          [
+            5.7,
+            0.35
+          ],
+          [
+            5.7,
+            2.86
+          ],
+          [
+            7.08,
+            0.35
+          ],
+          [
+            5.99,
+            5.96
+          ],
+          [
+            7.08,
+            5.96
+          ]
+        ],
+        "post_sections_m": [
+          0.16,
+          0.16
+        ],
+        "eave_heights_m": [
+          2.72,
+          2.53
+        ],
+        "roof_outline_xy_m": [
+          [
+            0.12,
+            0.14
+          ],
+          [
+            7.25,
+            0.14
+          ],
+          [
+            7.25,
+            6.15
+          ],
+          [
+            5.86,
+            6.15
+          ],
+          [
+            5.86,
+            3.05
+          ],
+          [
+            0.12,
+            3.05
+          ]
+        ],
+        "roof_slope_degrees": 2,
+        "ridge_height_m": 2.84
+      },
+      "light_inventory": [
+        {
+          "category": "ceiling_downlight",
+          "count": 10,
+          "evidence": "Approximately 6 visible over main roof and 4 over right wing; regular spacing inferred."
+        },
+        {
+          "category": "existing_fence_sconce",
+          "count": 8,
+          "evidence": "Six visible on tall return in R01 plus two on low blue-wall screen in R02."
+        },
+        {
+          "category": "deck_riser",
+          "count": 9,
+          "evidence": "Visible repeated lights on exposed deck edges; spacing regularized."
+        },
+        {
+          "category": "plant_uplight",
+          "count": 2,
+          "evidence": "One at either planter in design concepts."
+        }
+      ],
+      "collisions_exported": true
+    }
+  ],
+  "lighting": {
+    "time_ids": [
+      "day",
+      "night"
+    ],
+    "initial_day_direction": "overcast_reference",
+    "night_reference_type": "design_simulation_not_real_night_capture",
+    "strategy_hypothesis": "baked_static_diffuse_with_runtime_specular_reflections",
+    "strategy_validated_in_pilot": true,
+    "lightmap_format": "OpenEXR HALF ZIP",
+    "lightmap_color_encoding": "Linear Rec.709 / linear-sRGB; no tone mapping",
+    "lightmap_uv_channel": 1,
+    "day_artificial_lights_enabled": false,
+    "night_artificial_lights_enabled": true,
+    "warm_light_temperature_kelvin": 2700
+  },
+  "navigation_defaults": {
+    "eye_height_m": 1.65,
+    "fov_degrees": 60,
+    "values_are_experience_defaults_not_site_measurements": true,
+    "collision_policy": "walkable_areas_with_pool_boundary",
+    "variant_collision_resolution": "nearest_valid_walkable_position"
+  },
+  "comparison_cameras": [
+    {
+      "id": "CAM01_GENERAL",
+      "source_reference_id": "r03_general",
+      "kind": "reference_content_inspection",
+      "pose_solved": true,
+      "horizontal_fov_degrees": 80,
+      "aspect": 1.5,
+      "accuracy": "content_match_inspection; separate PHOTO cameras preserve portrait reference projection",
+      "position_plan": [
+        0.38,
+        8.65,
+        1.9
+      ],
+      "target_plan": [
+        4.1,
+        2.7,
+        1.45
+      ]
+    },
+    {
+      "id": "CAM02_MURO_AZUL",
+      "source_reference_id": "r02_terraza",
+      "kind": "reference_content_inspection",
+      "pose_solved": true,
+      "horizontal_fov_degrees": 76,
+      "aspect": 1.5,
+      "accuracy": "content_match_inspection; separate PHOTO cameras preserve portrait reference projection",
+      "position_plan": [
+        3.5,
+        6.0,
+        1.75
+      ],
+      "target_plan": [
+        3.7,
+        0.3,
+        1.4
+      ]
+    },
+    {
+      "id": "CAM03_CERCO",
+      "source_reference_id": "r01_cerco",
+      "kind": "reference_content_inspection",
+      "pose_solved": true,
+      "horizontal_fov_degrees": 78,
+      "aspect": 1.5,
+      "accuracy": "content_match_inspection; separate PHOTO cameras preserve portrait reference projection",
+      "position_plan": [
+        2.05,
+        5.5,
+        1.72
+      ],
+      "target_plan": [
+        7.2,
+        5.55,
+        1.0
+      ]
+    },
+    {
+      "id": "CAM04_BAJO_CUBIERTA",
+      "source_reference_id": null,
+      "kind": "synthetic_inspection",
+      "pose_solved": true,
+      "horizontal_fov_degrees": 76,
+      "aspect": 1.5,
+      "accuracy": "content_match_inspection; separate PHOTO cameras preserve portrait reference projection",
+      "position_plan": [
+        2.0,
+        2.58,
+        1.89
+      ],
+      "target_plan": [
+        4.1,
+        0.85,
+        2.65
+      ]
+    },
+    {
+      "id": "CAM05_PISCINA",
+      "source_reference_id": null,
+      "kind": "synthetic_inspection",
+      "pose_solved": true,
+      "horizontal_fov_degrees": 72,
+      "aspect": 1.5,
+      "accuracy": "content_match_inspection; separate PHOTO cameras preserve portrait reference projection",
+      "position_plan": [
+        1.7,
+        8.3,
+        1.73
+      ],
+      "target_plan": [
+        5.0,
+        8.0,
+        -0.1
+      ]
+    }
+  ],
+  "quality": {
+    "profile_ids": [
+      "high",
+      "balanced",
+      "low"
+    ],
+    "prefer_high_when_viable": true,
+    "manual_selector_required": true,
+    "budgets_status": "measured_on_available_M2_Chromium_Metal_host",
+    "budgets": {
+      "high": {
+        "state_assets_budget_mib": 40,
+        "active_lightmaps_gpu_bytes_estimate": 60817408,
+        "cached_lightmap_sets_max": 2,
+        "submitted_triangles_per_frame_budget": 800000,
+        "draw_calls_per_frame_budget": 150,
+        "note": "State asset bytes include common+variant+maps+environment; triangle budget includes planar-reflection pass. GPU estimate covers lightmaps only."
+      },
+      "balanced": {
+        "state_assets_budget_mib": 21,
+        "active_lightmaps_gpu_bytes_estimate": 15204352,
+        "cached_lightmap_sets_max": 2,
+        "submitted_triangles_per_frame_budget": 800000,
+        "draw_calls_per_frame_budget": 150,
+        "note": "State asset bytes include common+variant+maps+environment; triangle budget includes planar-reflection pass. GPU estimate covers lightmaps only."
+      },
+      "low": {
+        "state_assets_budget_mib": 16,
+        "active_lightmaps_gpu_bytes_estimate": 3801088,
+        "cached_lightmap_sets_max": 2,
+        "submitted_triangles_per_frame_budget": 800000,
+        "draw_calls_per_frame_budget": 150,
+        "note": "State asset bytes include common+variant+maps+environment; triangle budget includes planar-reflection pass. GPU estimate covers lightmaps only."
+      }
+    },
+    "performance_targets_not_guarantees": {
+      "capable_desktop_fps": 60,
+      "representative_mobile_fps": 30
+    },
+    "measurement_evidence": "outputs/validation/browser-report.json"
+  },
+  "paths": {
+    "blender_master": "blender/patio_master.blend",
+    "blender_scripts": "blender/scripts",
+    "web_project": "web",
+    "web_asset_manifest": "web/public/assets/scene-manifest.json",
+    "production_build": "web/dist",
+    "evidence": "outputs"
+  },
+  "deployment": {
+    "provider": "github_pages",
+    "repository_url": null,
+    "base_path": "/ProjectCobertizo/",
+    "production_url": null,
+    "authorization_status": "User will transfer to Git and publish; no remote deployment requested",
+    "status": "publish_ready_local"
+  },
+  "spatial_revision": "2026-10-03-reference-reconstruction-v2",
+  "photo_comparison_cameras": [
+    {
+      "id": "PHOTO_R03_GENERAL",
+      "reference": "r03_general",
+      "position_plan": [
+        -0.13478,
+        7.26125,
+        1.32
+      ],
+      "target_plan": [
+        4.54319,
+        3.72365,
+        0.05432
+      ],
+      "horizontal_fov_degrees": 82.68081801565293,
+      "aspect": 0.75
+    },
+    {
+      "id": "PHOTO_R02_TERRAZA",
+      "reference": "r02_terraza",
+      "position_plan": [
+        3.7703,
+        5.14412,
+        0.9
+      ],
+      "target_plan": [
+        3.51421,
+        -0.6928,
+        -0.46555
+      ],
+      "horizontal_fov_degrees": 94.32229468013655,
+      "aspect": 0.75
+    },
+    {
+      "id": "PHOTO_R01_CERCO",
+      "reference": "r01_cerco",
+      "position_plan": [
+        3.15,
+        5.35,
+        1.5
+      ],
+      "target_plan": [
+        7.4,
+        5.35,
+        -0.75
+      ],
+      "horizontal_fov_degrees": 94.0,
+      "aspect": 0.75
+    }
+  ],
+  "operational_metadata_note": "Current validation metadata; saved master config_json retains the generation-time snapshot. Geometric fields are identical."
+}

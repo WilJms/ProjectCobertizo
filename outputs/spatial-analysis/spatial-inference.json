@@ -1,0 +1,335 @@
+{
+  "status": "inferred_visual_reconstruction_not_survey",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "method": "long ground/wall directions, shared corners across R02/R03, paving module counts, independent R01 check",
+  "r03_vanishing_points_px": [
+    [
+      900.0,
+      515.0
+    ],
+    [
+      -260.0,
+      535.0
+    ]
+  ],
+  "r03_focal_px": 545.5960043841964,
+  "scale": "0.45 m provisional tile module; inferred eye height 1.32 m for R03 is not measured",
+  "readings": {
+    "blue_fence_ground": {
+      "pixel": [
+        414,
+        594
+      ],
+      "plan_m": [
+        7.4,
+        0.0
+      ]
+    },
+    "terrace_front_right": {
+      "pixel": [
+        489,
+        619
+      ],
+      "plan_m": [
+        5.921,
+        2.845
+      ]
+    },
+    "terrace_back_right": {
+      "pixel": [
+        344,
+        602
+      ],
+      "plan_m": [
+        5.981,
+        -0.324
+      ]
+    },
+    "walkway_lawn_middle": {
+      "pixel": [
+        430,
+        976
+      ],
+      "plan_m": [
+        0.865,
+        6.296
+      ]
+    },
+    "walkway_lawn_near": {
+      "pixel": [
+        870,
+        1260
+      ],
+      "plan_m": [
+        0.861,
+        7.371
+      ]
+    },
+    "house_ground_visible": {
+      "pixel": [
+        83,
+        1150
+      ],
+      "plan_m": [
+        0.074,
+        5.997
+      ]
+    },
+    "pool_far_water": {
+      "pixel": [
+        844,
+        662
+      ],
+      "plan_m": [
+        5.783,
+        7.001
+      ]
+    },
+    "pool_inflexion_water": {
+      "pixel": [
+        837,
+        713
+      ],
+      "plan_m": [
+        4.163,
+        7.07
+      ]
+    },
+    "pool_left_bulb_water": {
+      "pixel": [
+        820,
+        771
+      ],
+      "plan_m": [
+        3.08,
+        7.076
+      ]
+    },
+    "pool_left_side_water": {
+      "pixel": [
+        960,
+        815
+      ],
+      "plan_m": [
+        2.926,
+        7.629
+      ]
+    }
+  },
+  "r02_shared_landmarks": {
+    "world": [
+      [
+        7.4,
+        0.0,
+        0.0
+      ],
+      [
+        7.4,
+        0.0,
+        1.55
+      ],
+      [
+        7.4,
+        0.0,
+        2.48
+      ],
+      [
+        3.65,
+        0.0,
+        1.55
+      ],
+      [
+        5.9,
+        2.85,
+        0.0
+      ],
+      [
+        5.9,
+        0.3,
+        0.0
+      ]
+    ],
+    "pixels": [
+      [
+        827,
+        598
+      ],
+      [
+        848,
+        475
+      ],
+      [
+        868,
+        394
+      ],
+      [
+        474,
+        478
+      ],
+      [
+        904,
+        710
+      ],
+      [
+        690,
+        610
+      ]
+    ],
+    "projected": [
+      [
+        819.13,
+        616.51
+      ],
+      [
+        844.22,
+        471.86
+      ],
+      [
+        861.16,
+        374.16
+      ],
+      [
+        489.22,
+        474.83
+      ],
+      [
+        902.97,
+        710.28
+      ],
+      [
+        695.74,
+        620.66
+      ]
+    ],
+    "rms_px": 10.241736979340232
+  },
+  "pool_controls_m": [
+    [
+      6.92,
+      7.95
+    ],
+    [
+      6.5,
+      7.35
+    ],
+    [
+      5.78,
+      7.0
+    ],
+    [
+      5.19,
+      6.91
+    ],
+    [
+      4.57,
+      6.97
+    ],
+    [
+      4.16,
+      7.07
+    ],
+    [
+      3.73,
+      7.03
+    ],
+    [
+      3.36,
+      7.0
+    ],
+    [
+      3.08,
+      7.08
+    ],
+    [
+      2.92,
+      7.28
+    ],
+    [
+      2.93,
+      7.85
+    ],
+    [
+      3.02,
+      9.7
+    ],
+    [
+      3.6,
+      10.85
+    ],
+    [
+      4.7,
+      11.25
+    ],
+    [
+      5.93,
+      10.95
+    ],
+    [
+      6.75,
+      10.0
+    ],
+    [
+      6.92,
+      7.95
+    ]
+  ],
+  "pool_unobserved": "near return after the visible left arc, basin and depth",
+  "limitations": [
+    "Not a calibrated reconstruction. Pinhole fit ignores residual phone lens distortion.",
+    "Small four-point tile homographies were rejected: distant extrapolation is unstable.",
+    "The near patio boundary and near pool cap are conservative completions; they are not visible in supplied media."
+  ],
+  "photo_cameras": [
+    {
+      "id": "PHOTO_R03_GENERAL",
+      "reference": "r03_general",
+      "position_plan": [
+        -0.13478,
+        7.26125,
+        1.32
+      ],
+      "target_plan": [
+        4.54319,
+        3.72365,
+        0.05432
+      ],
+      "horizontal_fov_degrees": 82.68081801565293,
+      "aspect": 0.75
+    },
+    {
+      "id": "PHOTO_R02_TERRAZA",
+      "reference": "r02_terraza",
+      "position_plan": [
+        3.7703,
+        5.14412,
+        0.9
+      ],
+      "target_plan": [
+        3.51421,
+        -0.6928,
+        -0.46555
+      ],
+      "horizontal_fov_degrees": 94.32229468013655,
+      "aspect": 0.75
+    },
+    {
+      "id": "PHOTO_R01_CERCO",
+      "reference": "r01_cerco",
+      "position_plan": [
+        3.15,
+        5.35,
+        1.5
+      ],
+      "target_plan": [
+        7.4,
+        5.35,
+        -0.75
+      ],
+      "horizontal_fov_degrees": 94.0,
+      "aspect": 0.75
+    }
+  ]
+}

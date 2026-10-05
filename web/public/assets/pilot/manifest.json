@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "stage": "pilot",
+  "camera": {
+    "id": "PILOT_CAMERA",
+    "position": [
+      4.0,
+      3.5999999046325684,
+      -5.0
+    ],
+    "target": [
+      3.4358103275299072,
+      3.2548487186431885,
+      -4.249959468841553
+    ],
+    "verticalFov": 46.02316924448878,
+    "aspect": 1.5,
+    "near": 0.06,
+    "far": 150
+  },
+  "states": {
+    "day": {
+      "model": "assets/pilot/pilot.glb",
+      "lightmap": "assets/pilot/day.exr",
+      "environment": "assets/sky_day.jpg",
+      "environmentIntensity": 1
+    },
+    "night": {
+      "model": "assets/pilot/pilot.glb",
+      "lightmap": "assets/pilot/night.exr",
+      "environment": "assets/sky_night.jpg",
+      "environmentIntensity": 0.65
+    }
+  }
+}

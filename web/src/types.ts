@@ -1,0 +1,6 @@
+export type Quality='high'|'balanced'|'low';
+export type TimeId='day'|'night';
+export type Collision={id:string,type:'circle',x:number,y:number,radius:number}|{id:string,type:'box',min:[number,number],max:[number,number]};
+export interface CameraPose{id:string;position:[number,number,number];target:[number,number,number];verticalFov:number;aspect:number;near:number;far:number;}
+export interface SceneState{designId:string;timeId:TimeId;model:string;lightmaps:{meshId:string;uri:string;uvChannel:number;flipY:boolean;linear:boolean;size:number}[];environment:{uri:string;intensity:number;backgroundIntensity?:number};exposure:number;emissionStrength:number;lights:{id:string;position:number[];target:number[];power_w:number;group:string}[];collisions:Collision[];render:string;}
+export interface Manifest{schemaVersion:string;commonModel:string;designs:{id:string;label:string;description:string}[];states:Record<string,SceneState>;cameras:CameraPose[];navigation:{bounds:[number,number,number,number];pool:number[][];deck:number[][];deckHeight:number;eyeHeight:number;radius:number;commonCollisions:Collision[]};profiles:Record<Quality,{pixelRatio:number;reflectionSize:number;reflectionEvery:number;description:string}>;}

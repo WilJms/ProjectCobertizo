@@ -1,0 +1,251 @@
+Quiero que continúes trabajando sobre este mismo proyecto y apliques las siguientes correcciones. En general me gustó mucho el resultado, especialmente las texturas, los materiales, los gráficos y la ambientación. Conserva esa calidad visual mientras corriges los problemas concretos de geometría, mobiliario, iluminación e interfaz.
+
+Usa las capturas adjuntas para identificar el estado actual del visor y las imágenes finales de los tres estilos como referencia de la forma que debe tener la estructura.
+
+Mantén las tres propuestas actuales:
+
+- Madera — Dos aguas.
+- Oscuro — Cielo de madera.
+- Oscuro — Paños claros.
+
+Las referencias a izquierda y derecha en estas instrucciones corresponden a la vista general de las imágenes de referencia, independientemente de hacia dónde esté mirando la cámara del visor.
+
+## 1. Conservar la base que ya está bien
+
+Mantén el bloque principal de la tarima, que es la parte grande de la izquierda, con sus proporciones y su posición actuales. Conserva también los acabados y la identidad de cada propuesta.
+
+Trabaja sobre la escena existente y sus parámetros. Las correcciones deben resolver la forma del brazo derecho, la separación del recorrido de baldosas, la distribución y estabilidad de las luces, el montaje de los muebles y la experiencia en teléfono.
+
+Comprueba los cambios desde distintos ángulos, porque el resultado debe tener una geometría coherente al recorrerlo.
+
+## 2. Corregir el brazo derecho de la L y su llegada diagonal a la piscina
+
+La tarima tiene forma de L:
+
+- Un cuerpo principal grande a la izquierda, que está bien.
+- Un brazo más estrecho a la derecha, pegado al cerco de madera y dirigido hacia la piscina.
+
+Ese brazo derecho necesita **un poco más de ancho**. Haz un incremento moderado, conservando su condición de brazo estrecho respecto del cuerpo principal. Mantén el cerco de madera y la piscina en sus posiciones; el aumento de ancho puede desarrollarse hacia el césped.
+
+La modificación más importante está en el extremo junto a la piscina. Actualmente termina demasiado pronto, con una cara recta y una franja de suelo verde antes de la piscina. Esto se aprecia en las capturas de las 6:31:20 y 6:31:52.
+
+Para definir exactamente la forma correcta, distingue estas dos esquinas en planta:
+
+- **Esquina A:** la esquina exterior del brazo, junto al césped.
+- **Esquina B:** la esquina posterior del brazo, pegada al cerco de madera.
+
+La esquina A debe conservar su posición longitudinal más retraída respecto de la piscina. Al ensanchar ligeramente el brazo puede desplazarse transversalmente hacia el césped.
+
+La esquina B debe prolongarse siguiendo el cerco de madera hasta llegar al borde exterior seco de la piscina, tal como ocurre en las imágenes finales de referencia.
+
+Une A y B con un remate oblicuo real. **La punta junto al cerco llega más lejos hacia la piscina, mientras que la esquina junto al césped queda más atrás.** Esa diferencia debe existir en la planta del modelo.
+
+Resuelve la extensión modificando los vértices y bordes correspondientes de la tarima. Mantén la forma y posición de la piscina y de su borde; la madera debe encontrarse con el borde exterior previsto, sin invadir el agua.
+
+### Aplicar también la corrección al cobertizo
+
+El techo debe cubrir todo el brazo corregido, incluyendo el pequeño aumento de ancho y la prolongación diagonal del extremo.
+
+Actualiza de manera coherente:
+
+- El contorno de la tarima y su faldón.
+- La superficie de la cubierta.
+- Las vigas y los remates del techo.
+- Los puntos de apoyo y sus bases.
+
+Conserva **un pilar en cada extremo de ese remate**: uno en la esquina del lado del césped y otro en la esquina posterior junto al cerco. El pilar posterior debe acompañar la prolongación hasta su posición correcta.
+
+Las tres propuestas deben compartir esta misma planta corregida. Mantén las diferencias propias de sus materiales y tipos de techo.
+
+## 3. Separar el recorrido de baldosas del conjunto de tarima y cobertizo
+
+En el sector izquierdo, el cobertizo y la tarima quedan demasiado pegados al recorrido de baldosas. La cara corta de madera junto a ese recorrido apenas se distingue.
+
+Desplaza hacia la izquierda el conjunto del recorrido de baldosas y los elementos asociados que deban acompañarlo, creando la separación lateral necesaria. El ajuste debe hacerse en ese sector del patio, conservando el bloque principal de la tarima que ya está bien.
+
+El resultado debe permitir reconocer claramente:
+
+- El recorrido de baldosas.
+- El límite del área cubierta.
+- La separación lateral entre ambos.
+- La cara corta de la tarima orientada hacia las baldosas.
+
+El cobertizo debe cubrir la tarima completa y dejar el recorrido de baldosas fuera de esa zona cubierta.
+
+Corrige primero esta relación espacial en el modelo. Después ajusta la vista general para que se pueda apreciar el lado corto y sus tres luces, sin que lo oculten la interfaz o un encuadre demasiado cerrado.
+
+## 4. Corregir exactamente la distribución de las luces bajas
+
+La distribución definitiva de luminarias en el faldón de la tarima es esta:
+
+| Cara de la tarima | Cantidad |
+|---|---:|
+| Lado largo izquierdo, frente al comedor | 3 |
+| Lado largo derecho, frente a la reposera | 3 |
+| Lado corto junto a las baldosas | 3 |
+| Remate corto diagonal junto a la piscina | 0 |
+| **Total de luces bajas** | **9** |
+
+Aplica esta distribución a las tres propuestas.
+
+En cada cara que lleva tres luces, distribúyelas de manera regular y centrada, dejando márgenes equilibrados en los extremos. Calcula las posiciones sobre la longitud real de la cara correspondiente; como criterio, utiliza aproximadamente el 25 %, 50 % y 75 % del tramo útil.
+
+Mantén las luminarias centradas verticalmente en el faldón, con el mismo criterio de tamaño, orientación y acabado. Deben acompañar la dirección de cada cara de madera.
+
+En el remate diagonal junto a la piscina, la madera debe quedar continua, sin cuerpos de luminaria, emisores ni halos asociados.
+
+Distingue las luces bajas de los focos del techo y de los apliques del cerco. El total de nueve corresponde únicamente a las luminarias del faldón.
+
+Revisa también que el cambio de propuesta no duplique luminarias ni conserve instancias de la distribución anterior.
+
+## 5. Eliminar completamente el parpadeo y fijar el comportamiento día/noche
+
+He observado parpadeos tanto de día como de noche. Corrige ese comportamiento en la escena en funcionamiento.
+
+### Modo Día
+
+Todas las luminarias artificiales deben estar apagadas completamente:
+
+- Luces bajas de la tarima.
+- Focos del techo.
+- Apliques de los muros y del cerco.
+- Cualquier halo o efecto luminoso asociado a esas luminarias.
+
+El estado apagado debe incluir la contribución de las luces reales, las superficies emisivas y los efectos que simulen resplandor. Los cuerpos físicos de las luminarias deben seguir visibles e iluminados naturalmente por el entorno.
+
+Mantén la iluminación diurna del cielo, el sol y el ambiente. El requisito de apagado corresponde a las luminarias artificiales.
+
+### Modo Noche
+
+Las luminarias deben estar encendidas de forma estable y coordinada, con la ambientación cálida del proyecto.
+
+Elimina pulsaciones, destellos, encendidos intermitentes, cambios aleatorios de intensidad y alternancias involuntarias entre estados. Mantén ese comportamiento al mover la cámara, caminar, cambiar de propuesta o modificar la calidad.
+
+### Diagnóstico del problema
+
+Investiga la causa antes de aplicar la corrección. Distingue entre:
+
+- Un cambio repetido del estado o de la intensidad de las luces.
+- Un problema de representación del difusor o de las superficies luminosas.
+- Geometrías superpuestas que compiten por dibujarse, como un posible conflicto de profundidad o z-fighting.
+- Efectos de halo, sombras o ajustes automáticos que produzcan una inestabilidad visual.
+
+Revisa los materiales y la colocación de las caras emisivas respecto del faldón, las posibles instancias duplicadas y cualquier animación o actualización que esté modificando las luces de forma continua.
+
+Mantén una fuente coherente de estado para Día/Noche y sincroniza con ella luces, materiales emisivos y efectos. Comprueba que alternar propuestas no deje objetos o actualizaciones anteriores activos.
+
+Prueba el resultado con la cámara quieta y en movimiento, tanto en calidad Alta como en Automática. Verifica cada modo durante un intervalo suficiente para detectar intermitencias, no únicamente mediante una captura fija.
+
+## 6. Corregir los muebles
+
+### Sillas laterales del comedor
+
+En las capturas de las 6:30:16 y 6:30:29, las dos sillas de los costados están orientadas hacia afuera y sus respaldos penetran el tablero.
+
+Corrige primero la orientación del conjunto completo de cada silla: el frente del asiento debe mirar al centro de la mesa y el respaldo debe quedar hacia el exterior. Después ajusta su separación.
+
+Comprueba que los respaldos y apoyabrazos queden fuera del tablero, que las patas no se atraviesen entre sí y que exista espacio razonable para sentarse. Conserva el diseño plegable, la tela roja y la estructura tubular oscura.
+
+Revisa también las dos sillas de cabecera y conserva su orientación si ya es correcta.
+
+### Reposera del sector derecho
+
+En varias capturas, especialmente las de las 6:31:02 y 6:32:18, el respaldo inclinado está separado del asiento horizontal y parece suspendido. También sobresale un larguero hacia la cabecera.
+
+Corrige la reposera como un conjunto bien ensamblado:
+
+- Une el extremo inferior del respaldo con el extremo correspondiente del asiento.
+- Sitúa el pivote de inclinación en esa unión.
+- Integra una bisagra, un bastidor o un soporte de inclinación visualmente coherente.
+- Alinea los largueros, travesaños y patas.
+- Mantén los tubos correctamente relacionados con los cojines y evita piezas que sobresalgan sin una función clara.
+
+Conserva el tapizado gris, la estructura oscura y la ubicación general del mueble.
+
+### Silla colgante
+
+Revisa también la silla colgante. En las capturas de las 6:31:38 y 6:32:07 se percibe como una estructura ovoide demasiado cerrada por delante, y el cojín sobresale de la retícula.
+
+Debe tener una abertura frontal clara y proporcionada, con el cojín integrado dentro del espacio útil. Mantén la forma ovoide, el acabado y su soporte, comprobando que las varillas no atraviesen el espacio donde se sentaría una persona.
+
+Verifica el enganche superior y la continuidad con el soporte y la base antes de modificar cualquier pieza de esa unión.
+
+## 7. Corregir la experiencia de iPhone en horizontal
+
+Revisa la adaptación del visor al teléfono en orientación horizontal. En las capturas aparecen instrucciones como “WASD para caminar” y “Esc para soltar el ratón”, mientras la interfaz ocupa una parte considerable de la escena.
+
+Comprueba por separado:
+
+1. Cómo se adapta la interfaz al ancho y a la altura disponibles.
+2. Cómo se eligen los controles según las capacidades de entrada.
+
+Investiga si el problema se debe a un punto de cambio de diseño, a la selección de controles o a que la vista de iPhone del entorno de prueba solo cambia las dimensiones y sigue utilizando ratón.
+
+La interfaz debe compactarse cuando haya poca altura útil, incluso si ese tamaño de ventana se está probando con ratón. A su vez, los controles táctiles deben funcionar en un teléfono tanto en vertical como en horizontal.
+
+Revisa el uso de capacidades como `pointer` y `hover` cuando corresponda, considerando también dispositivos que combinan entrada táctil y ratón.
+
+### Navegación y cámara
+
+Haz que el modo “Caminar” sea utilizable mediante controles táctiles claros. Debe haber una forma visible de salir de ese modo y los gestos del visor deben convivir correctamente con los botones y menús.
+
+Al girar el dispositivo o cambiar el tamaño disponible:
+
+- Actualiza el tamaño real del área de renderizado.
+- Mantén correcta la proporción de la cámara.
+- Conserva el estado de la propuesta y del modo Día/Noche.
+- Evita deformaciones, recortes involuntarios o saltos innecesarios de posición.
+- Respeta las zonas seguras de la pantalla y el espacio ocupado por las barras del navegador.
+
+Comprueba que tocar o desplegar un control no active simultáneamente un movimiento de cámara detrás de la interfaz.
+
+## 8. Reducir el selector de propuestas y liberar espacio para el patio
+
+En horizontal, sustituye el panel grande permanentemente abierto por un selector compacto.
+
+La opción preferida es un control que muestre el nombre abreviado de la propuesta activa y el contador, por ejemplo “Madera · 1/3”. Al tocarlo, se despliegan las tres opciones; después de seleccionar una, el panel se recoge.
+
+Mantén el estilo visual actual de la interfaz, pero reduce el espacio ocupado por títulos, separaciones y márgenes en pantallas de poca altura.
+
+Conserva accesibles los controles de Día/Noche, Vista, Reiniciar y Caminar. Las opciones secundarias, como Calidad y Ayuda, pueden organizarse en un menú compacto si es necesario.
+
+Los desplegables deben caber dentro del área visible, permitir alcanzar todas las opciones y mantener superficies cómodas para tocar. Coordina su ubicación con los controles táctiles de navegación.
+
+El objetivo es que el patio sea el contenido principal de la pantalla y que puedan verse el frente corto junto a las baldosas, el comedor y el remate hacia la piscina.
+
+## 9. Revisiones adicionales de acabado
+
+Hay una tira muy fina, gris de día y oscura de noche, junto al borde frontal de la tarima, visible en las capturas de las 6:30:48 y 6:32:18. Identifica qué objeto la produce. Si es un perfil previsto, resuelve su continuidad y sus encuentros; si corresponde a un solape o a geometría residual, corrígelo.
+
+Comprueba también los encuentros entre muebles, plantas y estructura. En algunos ángulos el follaje se superpone visualmente con las vigas: verifica si existe un cruce físico antes de modificarlo.
+
+Después de ensanchar y prolongar el brazo derecho, ajusta las tablas y sus coordenadas de textura para mantener una escala de veta coherente. Las superficies nuevas deben continuar los materiales existentes de forma natural.
+
+Conserva la calidad de texturas, sombras, reflejos y acabados. Cualquier ajuste de rendimiento debe responder a un problema medido y mantener el aspecto visual que ya funciona bien.
+
+## 10. Verificación y entrega
+
+Aplica las correcciones a las tres propuestas y comprueba al menos lo siguiente:
+
+| Aspecto | Resultado esperado |
+|---|---|
+| Bloque principal izquierdo | Conserva su forma y proporciones aprobadas |
+| Brazo derecho | Ligeramente más ancho |
+| Extremo junto a la piscina | Esquina del cerco prolongada y esquina del césped retraída |
+| Remate diagonal | Existe en la geometría real de tarima y cubierta |
+| Pilares del extremo | Ambos presentes y correctamente apoyados |
+| Recorrido de baldosas | Separado lateralmente del conjunto cubierto |
+| Luces bajas | Exactamente 3 + 3 + 3 + 0 |
+| Modo Día | Iluminación artificial completamente apagada |
+| Modo Noche | Iluminación artificial encendida y estable |
+| Mobiliario | Orientación, uniones y separaciones correctas |
+| Teléfono horizontal | Interfaz compacta y controles utilizables |
+| Calidad visual | Mantiene las texturas y el acabado actuales |
+
+Revisa vistas generales, cercanas y desde arriba para comprobar la forma en planta. Prueba también el recorrido alrededor de los muebles y del extremo de la piscina.
+
+Verifica el cambio vertical → horizontal → vertical y alterna varias veces las tres propuestas y los modos Día/Noche. Comprueba que esas acciones no dupliquen objetos, reinicien innecesariamente la cámara ni reintroduzcan parpadeos.
+
+Mantén el proyecto utilizable directamente en el navegador y compatible con la forma de publicación prevista para compartirlo con el cliente.
+
+Al terminar, entrega el proyecto actualizado con una explicación breve de los cambios, capturas de las vistas importantes y una descripción de las pruebas realizadas. Distingue las comprobaciones hechas en emulación de las que hayas podido realizar en un teléfono real.

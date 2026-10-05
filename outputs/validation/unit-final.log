@@ -1,0 +1,17 @@
+
+> patio-cobertizos@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ pool interior and edge clearance are impassable (0.829666ms)
+✔ fast movement cannot tunnel through pool or fence (1.216ms)
+✔ changing variant retains valid pose and finds nearby free pose for a new post (1.121792ms)
+✔ box clearance and sliding along a face (0.110083ms)
+✔ deck elevation is continuous in the L footprint and absent from lawn (0.106458ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 96.061833

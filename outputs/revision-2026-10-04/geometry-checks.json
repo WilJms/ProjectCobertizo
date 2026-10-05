@@ -1,0 +1,306 @@
+{
+  "main_deck_rect_m_preserved": true,
+  "pool_outline_xy_m_preserved": true,
+  "pool_border_width_m_preserved": true,
+  "fence_segments_preserved": true,
+  "riser_counts": {
+    "dining": 3,
+    "lounger": 3,
+    "walkway": 3,
+    "diagonal": 0
+  },
+  "diffuser_housing_clearance_m": 0.0049999999999999975,
+  "corners": {
+    "A": [
+      5.56,
+      6.15
+    ],
+    "B": [
+      7.25,
+      7.75786
+    ]
+  },
+  "wing_width_m": 1.6900000000000004,
+  "walkway_to_deck_clearance_m": 0.5,
+  "walkway_outside_main_roof": true,
+  "d1_madera_dos_aguas__day": {
+    "activeArtificialLights": 0,
+    "activeNaturalSuns": 1,
+    "emission": 0
+  },
+  "d1_madera_dos_aguas__night": {
+    "activeArtificialLights": 35,
+    "activeNaturalSuns": 0,
+    "emission": 5
+  },
+  "d2_oscuro_cielo_madera__day": {
+    "activeArtificialLights": 0,
+    "activeNaturalSuns": 1,
+    "emission": 0
+  },
+  "d2_oscuro_cielo_madera__night": {
+    "activeArtificialLights": 35,
+    "activeNaturalSuns": 0,
+    "emission": 5
+  },
+  "d3_oscuro_paneles_claros__day": {
+    "activeArtificialLights": 0,
+    "activeNaturalSuns": 1,
+    "emission": 0
+  },
+  "d3_oscuro_paneles_claros__night": {
+    "activeArtificialLights": 35,
+    "activeNaturalSuns": 0,
+    "emission": 5
+  },
+  "diagonal_enters_water": false,
+  "closed_solids_with_outward_faces": 273,
+  "lounger_joint_error_m": 4.76837158203125e-07,
+  "all_four_chairs_face_table": true,
+  "rafter_roof_skin_intersections": [],
+  "foliage_pruning": [
+    {
+      "object": "PLANT_LEAVES_0",
+      "intersectingLeafCount": 8,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_POST_0": 33,
+        "d1_madera_dos_aguas_KNEE_0.3_0.35": 6,
+        "d2_oscuro_cielo_madera_POST_0": 33,
+        "d3_oscuro_paneles_claros_POST_0": 33
+      }
+    },
+    {
+      "object": "PLANT_LEAVES_1",
+      "intersectingLeafCount": 1,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_POST_2": 4,
+        "d2_oscuro_cielo_madera_POST_2": 4,
+        "d3_oscuro_paneles_claros_POST_2": 4
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_0",
+      "intersectingLeafCount": 53,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_left": 52,
+        "d1_madera_dos_aguas_RAFTER_1_0.15": 2,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_2": 2,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_3": 23,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_4": 31,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_5": 13,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_6": 12,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_7": 8,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_9": 8,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_10": 8,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_11": 10,
+        "d1_madera_dos_aguas_ROOF_OUTER_-1": 53,
+        "d2_oscuro_cielo_madera_left": 52,
+        "d2_oscuro_cielo_madera_CROSSBEAM_0": 54,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_3": 2,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_4": 4,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_5": 21,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_6": 6,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_7": 20,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_8": 9,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_9": 2,
+        "d2_oscuro_cielo_madera_EDGE_0.06": 105,
+        "d2_oscuro_cielo_madera_WEATHER_MAIN": 28,
+        "d3_oscuro_paneles_claros_left": 52,
+        "d3_oscuro_paneles_claros_CROSSBEAM_0": 54,
+        "d3_oscuro_paneles_claros_PANEL_0": 28,
+        "d3_oscuro_paneles_claros_EDGE_0.06": 105
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_LIGHT_0",
+      "intersectingLeafCount": 19,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_left": 14,
+        "d1_madera_dos_aguas_RAFTER_1_0.15": 2,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_4": 4,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_6": 10,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_7": 11,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_8": 8,
+        "d1_madera_dos_aguas_ROOF_OUTER_-1": 16,
+        "d2_oscuro_cielo_madera_left": 14,
+        "d2_oscuro_cielo_madera_CROSSBEAM_0": 30,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_3": 2,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_4": 7,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_5": 3,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_6": 19,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_7": 8,
+        "d2_oscuro_cielo_madera_EDGE_0.06": 29,
+        "d2_oscuro_cielo_madera_WEATHER_MAIN": 12,
+        "d3_oscuro_paneles_claros_left": 14,
+        "d3_oscuro_paneles_claros_CROSSBEAM_0": 30,
+        "d3_oscuro_paneles_claros_PANEL_0": 8,
+        "d3_oscuro_paneles_claros_EDGE_0.06": 29
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_1",
+      "intersectingLeafCount": 26,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_KING_0": 8,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_0": 35,
+        "d1_madera_dos_aguas_ROOF_BOARD_1_0": 35,
+        "d1_madera_dos_aguas_ROOF_BOARD_-1_1": 7,
+        "d1_madera_dos_aguas_ROOF_BOARD_1_1": 4,
+        "d1_madera_dos_aguas_ROOF_OUTER_-1": 28,
+        "d1_madera_dos_aguas_ROOF_OUTER_1": 10,
+        "d2_oscuro_cielo_madera_CROSSBEAM_4": 3,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_0": 35,
+        "d2_oscuro_cielo_madera_CEILING_SLAT_1": 4,
+        "d2_oscuro_cielo_madera_WEATHER_MAIN": 18,
+        "d3_oscuro_paneles_claros_CROSSBEAM_4": 3,
+        "d3_oscuro_paneles_claros_PANEL_3": 11,
+        "d3_oscuro_paneles_claros_PANEL_4": 4
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_LIGHT_1",
+      "intersectingLeafCount": 4,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_KING_0": 2,
+        "d1_madera_dos_aguas_ROOF_BOARD_1_0": 18,
+        "d1_madera_dos_aguas_ROOF_BOARD_1_1": 2,
+        "d1_madera_dos_aguas_ROOF_OUTER_1": 4
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_2",
+      "intersectingLeafCount": 20,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_ROOF_OUTER_1": 2,
+        "d1_madera_dos_aguas_WING_SLAT_0_0": 30,
+        "d1_madera_dos_aguas_WING_SLAT_0_1": 14,
+        "d1_madera_dos_aguas_WING_RAFTER_0_0": 38,
+        "d1_madera_dos_aguas_WING_WEATHER_0": 12,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_0": 30,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_1": 14,
+        "d2_oscuro_cielo_madera_WING_RAFTER_0_0": 38,
+        "d2_oscuro_cielo_madera_WING_WEATHER_0": 12,
+        "d3_oscuro_paneles_claros_WING_PANEL_0_0": 16,
+        "d3_oscuro_paneles_claros_WING_RAFTER_0_0": 38
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_LIGHT_2",
+      "intersectingLeafCount": 5,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_WING_RAFTER_0_0": 4,
+        "d1_madera_dos_aguas_WING_WEATHER_0": 8,
+        "d2_oscuro_cielo_madera_WING_RAFTER_0_0": 4,
+        "d2_oscuro_cielo_madera_WING_WEATHER_0": 8,
+        "d3_oscuro_paneles_claros_WING_RAFTER_0_0": 4
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_3",
+      "intersectingLeafCount": 39,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_wingouter": 2,
+        "d1_madera_dos_aguas_WING_SLAT_0_9": 2,
+        "d1_madera_dos_aguas_WING_SLAT_0_10": 14,
+        "d1_madera_dos_aguas_WING_SLAT_0_11": 19,
+        "d1_madera_dos_aguas_WING_SLAT_0_12": 21,
+        "d1_madera_dos_aguas_WING_SLAT_0_13": 18,
+        "d1_madera_dos_aguas_WING_SLAT_0_14": 6,
+        "d1_madera_dos_aguas_WING_SLAT_0_15": 6,
+        "d1_madera_dos_aguas_WING_SLAT_0_16": 15,
+        "d1_madera_dos_aguas_WING_RAFTER_0_3": 9,
+        "d1_madera_dos_aguas_WING_WEATHER_0": 39,
+        "d1_madera_dos_aguas_WING_OUTER": 124,
+        "d2_oscuro_cielo_madera_wingouter": 2,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_9": 2,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_10": 14,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_11": 19,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_12": 21,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_13": 18,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_14": 6,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_15": 6,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_16": 15,
+        "d2_oscuro_cielo_madera_WING_RAFTER_0_3": 9,
+        "d2_oscuro_cielo_madera_WING_WEATHER_0": 39,
+        "d2_oscuro_cielo_madera_WING_OUTER": 124,
+        "d3_oscuro_paneles_claros_wingouter": 2,
+        "d3_oscuro_paneles_claros_WING_PANEL_0_1": 2,
+        "d3_oscuro_paneles_claros_WING_PANEL_0_2": 31,
+        "d3_oscuro_paneles_claros_WING_PANEL_0_3": 12,
+        "d3_oscuro_paneles_claros_WING_RAFTER_0_3": 9,
+        "d3_oscuro_paneles_claros_WING_OUTER": 124
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_LIGHT_3",
+      "intersectingLeafCount": 5,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_WING_SLAT_0_9": 6,
+        "d1_madera_dos_aguas_WING_RAFTER_0_2": 5,
+        "d1_madera_dos_aguas_WING_WEATHER_0": 8,
+        "d1_madera_dos_aguas_WING_OUTER": 18,
+        "d2_oscuro_cielo_madera_WING_SLAT_0_9": 6,
+        "d2_oscuro_cielo_madera_WING_RAFTER_0_2": 5,
+        "d2_oscuro_cielo_madera_WING_WEATHER_0": 8,
+        "d2_oscuro_cielo_madera_WING_OUTER": 18,
+        "d3_oscuro_paneles_claros_WING_PANEL_0_1": 8,
+        "d3_oscuro_paneles_claros_WING_RAFTER_0_2": 5,
+        "d3_oscuro_paneles_claros_WING_OUTER": 18
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_4",
+      "intersectingLeafCount": 36,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_POST_6": 7,
+        "d1_madera_dos_aguas_wingouter": 4,
+        "d1_madera_dos_aguas_wingend": 4,
+        "d1_madera_dos_aguas_WING_SLAT_1_25": 8,
+        "d1_madera_dos_aguas_WING_SLAT_1_26": 15,
+        "d1_madera_dos_aguas_WING_SLAT_1_27": 7,
+        "d1_madera_dos_aguas_WING_SLAT_1_28": 13,
+        "d1_madera_dos_aguas_WING_SLAT_1_31": 10,
+        "d1_madera_dos_aguas_WING_RAFTER_1_6": 3,
+        "d1_madera_dos_aguas_WING_WEATHER_1": 36,
+        "d1_madera_dos_aguas_WING_END": 15,
+        "d1_madera_dos_aguas_WING_OUTER": 102,
+        "d2_oscuro_cielo_madera_POST_6": 7,
+        "d2_oscuro_cielo_madera_wingouter": 4,
+        "d2_oscuro_cielo_madera_wingend": 4,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_25": 8,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_26": 15,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_27": 7,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_28": 13,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_31": 10,
+        "d2_oscuro_cielo_madera_WING_RAFTER_1_6": 3,
+        "d2_oscuro_cielo_madera_WING_WEATHER_1": 36,
+        "d2_oscuro_cielo_madera_WING_END": 15,
+        "d2_oscuro_cielo_madera_WING_OUTER": 102,
+        "d3_oscuro_paneles_claros_POST_6": 7,
+        "d3_oscuro_paneles_claros_wingouter": 4,
+        "d3_oscuro_paneles_claros_wingend": 4,
+        "d3_oscuro_paneles_claros_WING_PANEL_1_5": 34,
+        "d3_oscuro_paneles_claros_WING_PANEL_1_6": 10,
+        "d3_oscuro_paneles_claros_WING_RAFTER_1_6": 3,
+        "d3_oscuro_paneles_claros_WING_END": 15,
+        "d3_oscuro_paneles_claros_WING_OUTER": 102
+      }
+    },
+    {
+      "object": "BACKGROUND_TREE_LIGHT_4",
+      "intersectingLeafCount": 4,
+      "triangleIntersections": {
+        "d1_madera_dos_aguas_WING_SLAT_1_26": 4,
+        "d1_madera_dos_aguas_WING_SLAT_1_28": 2,
+        "d1_madera_dos_aguas_WING_SLAT_1_29": 6,
+        "d1_madera_dos_aguas_WING_OUTER": 10,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_26": 4,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_28": 2,
+        "d2_oscuro_cielo_madera_WING_SLAT_1_29": 6,
+        "d2_oscuro_cielo_madera_WING_OUTER": 10,
+        "d3_oscuro_paneles_claros_WING_PANEL_1_5": 6,
+        "d3_oscuro_paneles_claros_WING_OUTER": 10
+      }
+    }
+  ]
+}

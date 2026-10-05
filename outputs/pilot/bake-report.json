@@ -1,0 +1,24 @@
+[
+  {
+    "meshId": "PILOT_STATIC",
+    "width": 1024,
+    "min": 0.0,
+    "max": 0.5932599306106567,
+    "mean": 0.09235202521085739,
+    "seconds": 3.1834132908843458,
+    "uv_channel": 1,
+    "encoding": "linear_rec709_half_float",
+    "pass": "DIFFUSE direct+indirect; COLOR excluded; no AO"
+  },
+  {
+    "meshId": "PILOT_STATIC",
+    "width": 1024,
+    "min": 0.0,
+    "max": 5.680083751678467,
+    "mean": 0.13242824375629425,
+    "seconds": 4.300423291977495,
+    "uv_channel": 1,
+    "encoding": "linear_rec709_half_float",
+    "pass": "DIFFUSE direct+indirect; COLOR excluded; no AO"
+  }
+]

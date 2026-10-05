@@ -1,0 +1,20 @@
+{
+  "version": "5.2.1 LTS",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "devices": [
+    {
+      "name": "Apple M2",
+      "type": "CPU",
+      "use": false
+    },
+    {
+      "name": "Apple M2 (GPU - 8 cores)",
+      "type": "METAL",
+      "use": true
+    }
+  ],
+  "render_device": "GPU",
+  "seconds": 1.2791661249939352,
+  "image": "cycles-test.png",
+  "saved_blend": "bpy-test.blend"
+}

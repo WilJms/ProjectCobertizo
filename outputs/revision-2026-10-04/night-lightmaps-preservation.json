@@ -1,0 +1,81 @@
+{
+  "nightMaps": [
+    {
+      "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_D1_MADERA_DOS_AGUAS.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_FIXTURES.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_FURNITURE.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_SURFACES.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d1_madera_dos_aguas__night__MESH_VEGETATION.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_D2_OSCURO_CIELO_MADERA.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_FIXTURES.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_FURNITURE.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_SURFACES.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d2_oscuro_cielo_madera__night__MESH_VEGETATION.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_D3_OSCURO_PANELES_CLAROS.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_FIXTURES.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_FURNITURE.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_SURFACES.exr",
+      "rawSame": false,
+      "filteredSame": false
+    },
+    {
+      "path": "web/public/assets/lightmaps/d3_oscuro_paneles_claros__night__MESH_VEGETATION.exr",
+      "rawSame": false,
+      "filteredSame": false
+    }
+  ],
+  "sameRawCount": 0,
+  "sameFilteredCount": 0
+}

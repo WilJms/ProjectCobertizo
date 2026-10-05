@@ -1,0 +1,794 @@
+{
+  "origin": "http://127.0.0.1:5173/ProjectCobertizo/",
+  "spatialRevision": "2026-10-04-detail-corrections-v3",
+  "browser": "153.0.8010.12",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "type": "touch emulation on Mac, not physical phone",
+      "movement": {
+        "start": [
+          -1,
+          2.200000047683716,
+          9.800000190734863
+        ],
+        "end": [
+          -0.41619957789158946,
+          1.6518391773236454,
+          9.085142386227986
+        ]
+      }
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "type": "landscape emulation"
+    },
+    {
+      "width": 1200,
+      "height": 800,
+      "type": "desktop Chromium on physical Mac host"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Identity, meaningful DOM, no framework error overlay",
+      "pass": true
+    },
+    {
+      "name": "WASD movement and pointer-drag free look",
+      "pass": true,
+      "before": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "after": [
+        -0.08609518701990597,
+        1.6502620600415965,
+        8.680932846151984
+      ]
+    },
+    {
+      "name": "Valid camera preserved across design change",
+      "pass": true
+    },
+    {
+      "name": "Post overlap resolved nearby",
+      "pass": true,
+      "moved": true,
+      "valid": true,
+      "position": [
+        0.028521620480317367,
+        1.87,
+        0.5864307286571844
+      ]
+    },
+    {
+      "name": "Rapid requests commit only the final requested state",
+      "pass": true
+    },
+    {
+      "name": "Download failure preserves old scene; retry recovers",
+      "pass": true
+    },
+    {
+      "name": "At most two state lightmap sets retained",
+      "pass": true
+    },
+    {
+      "name": "Landscape joystick does not overlap design choices",
+      "pass": true
+    },
+    {
+      "name": "Fallback explicitly offers renders instead of navigation",
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "design": "d1_madera_dos_aguas",
+      "time": "day",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "state": "d1_madera_dos_aguas__day",
+      "quality": "high",
+      "commits": 1,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 46,
+      "geometries": 35,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 1,
+      "modelCache": 2,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1
+    },
+    {
+      "design": "d1_madera_dos_aguas",
+      "time": "night",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "state": "d1_madera_dos_aguas__night",
+      "quality": "high",
+      "commits": 2,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 54,
+      "geometries": 35,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 2,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1
+    },
+    {
+      "design": "d2_oscuro_cielo_madera",
+      "time": "day",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "state": "d2_oscuro_cielo_madera__day",
+      "quality": "high",
+      "commits": 3,
+      "drawCalls": 137,
+      "triangles": 764814,
+      "textures": 57,
+      "geometries": 41,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 3,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1
+    },
+    {
+      "design": "d2_oscuro_cielo_madera",
+      "time": "night",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "state": "d2_oscuro_cielo_madera__night",
+      "quality": "high",
+      "commits": 4,
+      "drawCalls": 137,
+      "triangles": 764814,
+      "textures": 57,
+      "geometries": 41,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 3,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1
+    },
+    {
+      "design": "d3_oscuro_paneles_claros",
+      "time": "day",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "state": "d3_oscuro_paneles_claros__day",
+      "quality": "high",
+      "commits": 5,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1
+    },
+    {
+      "design": "d3_oscuro_paneles_claros",
+      "time": "night",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "high",
+      "commits": 6,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1
+    }
+  ],
+  "comparisons": [
+    {
+      "state": "d1_madera_dos_aguas__day__high",
+      "cameraId": "CAM01_GENERAL",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "expectedPosition": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "verticalFov": 65.5462631850547,
+      "expectedVerticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "width": 1200,
+      "height": 800,
+      "waterTime": 0,
+      "exposure": 1.2
+    },
+    {
+      "state": "d1_madera_dos_aguas__night__high",
+      "cameraId": "CAM01_GENERAL",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "expectedPosition": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "verticalFov": 65.5462631850547,
+      "expectedVerticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "width": 1200,
+      "height": 800,
+      "waterTime": 0,
+      "exposure": 1.2
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day__high",
+      "cameraId": "CAM01_GENERAL",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "expectedPosition": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "verticalFov": 65.5462631850547,
+      "expectedVerticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "width": 1200,
+      "height": 800,
+      "waterTime": 0,
+      "exposure": 1.2
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night__high",
+      "cameraId": "CAM01_GENERAL",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "expectedPosition": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "verticalFov": 65.5462631850547,
+      "expectedVerticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "width": 1200,
+      "height": 800,
+      "waterTime": 0,
+      "exposure": 1.2
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day__high",
+      "cameraId": "CAM01_GENERAL",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "expectedPosition": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "verticalFov": 65.5462631850547,
+      "expectedVerticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "width": 1200,
+      "height": 800,
+      "waterTime": 0,
+      "exposure": 1.2
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night__high",
+      "cameraId": "CAM01_GENERAL",
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "expectedPosition": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "verticalFov": 65.5462631850547,
+      "expectedVerticalFov": 65.5462631850547,
+      "aspect": 1.5,
+      "width": 1200,
+      "height": 800,
+      "waterTime": 0,
+      "exposure": 1.2
+    }
+  ],
+  "metrics": [
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "high",
+      "commits": 14,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.799999999999272,
+      "firstReadyMs": 998,
+      "frames": 1383,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "balanced",
+      "commits": 15,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 15204352,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.700000000004366,
+      "firstReadyMs": 998,
+      "frames": 1741,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "low",
+      "commits": 16,
+      "drawCalls": 69,
+      "triangles": 370502,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 3801088,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 0.85,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999709,
+      "frameMsP95": 16.799999999995634,
+      "firstReadyMs": 998,
+      "frames": 2166,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    }
+  ],
+  "errors": [
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED",
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "warnings": [
+    "No se pudo cargar el estado solicitado TypeError: Failed to fetch\n    at FileLoader.load (http://127.0.0.1:5173/ProjectCobertizo/node_modules/.vite/deps/three.module-Bj7iJlUn.js?v=8b69a82f:31825:3)\n    at EXRLoader.load (http://127.0.0.1:5173/ProjectCobertizo/node_modules/.vite/deps/three.module-Bj7iJlUn.js?v=8b69a82f:32290:10)\n    at http://127.0.0.1:5173/ProjectCobertizo/node_modules/.vite/deps/three.module-Bj7iJlUn.js?v=8b69a82f:31632:10\n    at new Promise (<anonymous>)\n    at EXRLoader.loadAsync (http://127.0.0.1:5173/ProjectCobertizo/node_modules/.vite/deps/three.module-Bj7iJlUn.js?v=8b69a82f:31631:10)\n    at loadLightmap (http://127.0.0.1:5173/ProjectCobertizo/src/lighting.ts:27:30)\n    at http://127.0.0.1:5173/ProjectCobertizo/src/scene.ts?t=1791151985208:86:72\n    at Array.map (<anonymous>)\n    at PatioScene.prepare (http://127.0.0.1:5173/ProjectCobertizo/src/scene.ts?t=1791151985208:86:61)\n    at async PatioScene.run (http://127.0.0.1:5173/ProjectCobertizo/src/scene.ts?t=1791151985208:159:18)"
+  ],
+  "failures": [],
+  "initialTransfer": {
+    "transferBytes": 37425502,
+    "decodedBodyBytes": 37422502,
+    "resources": 10
+  },
+  "memory": [
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "quality": "high",
+      "commits": 18,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "quality": "high",
+      "commits": 19,
+      "drawCalls": 137,
+      "triangles": 764814,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "high",
+      "commits": 20,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "quality": "high",
+      "commits": 21,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "quality": "high",
+      "commits": 22,
+      "drawCalls": 137,
+      "triangles": 764814,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "quality": "high",
+      "commits": 23,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "quality": "high",
+      "commits": 24,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "quality": "high",
+      "commits": 25,
+      "drawCalls": 137,
+      "triangles": 764814,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "quality": "high",
+      "commits": 26,
+      "drawCalls": 137,
+      "triangles": 740894,
+      "textures": 57,
+      "geometries": 47,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 2,
+      "modelCache": 4,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ]
+    }
+  ],
+  "retinaMetrics": [
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "quality": "high",
+      "commits": 1,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 46,
+      "geometries": 35,
+      "lightmapGpuBytesActive": 60817408,
+      "cachedStates": 1,
+      "modelCache": 2,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1.75,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "fps": 47.2,
+      "frameMsP50": 16.699999999999818,
+      "frameMsP95": 33.40000000000009,
+      "firstReadyMs": 938,
+      "frames": 301,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "quality": "balanced",
+      "commits": 2,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 51,
+      "geometries": 35,
+      "lightmapGpuBytesActive": 15204352,
+      "cachedStates": 2,
+      "modelCache": 2,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 1.25,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999891,
+      "frameMsP95": 16.700000000000728,
+      "firstReadyMs": 938,
+      "frames": 713,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "quality": "low",
+      "commits": 3,
+      "drawCalls": 137,
+      "triangles": 777822,
+      "textures": 51,
+      "geometries": 35,
+      "lightmapGpuBytesActive": 3801088,
+      "cachedStates": 2,
+      "modelCache": 2,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "size": [
+        1200,
+        800
+      ],
+      "dpr": 0.85,
+      "position": [
+        -1,
+        2.200000047683716,
+        9.800000190734863
+      ],
+      "fps": 60,
+      "frameMsP50": 16.69999999999891,
+      "frameMsP95": 16.799999999999272,
+      "firstReadyMs": 938,
+      "frames": 1077,
+      "physicalDevice": "macOS host; touch viewport emulation is not a phone benchmark"
+    }
+  ],
+  "expectedNetworkErrors": "Deliberate abort of --low.exr during error recovery test; no HTTP error is expected otherwise."
+}

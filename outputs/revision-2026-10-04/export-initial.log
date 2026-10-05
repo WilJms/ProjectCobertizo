@@ -1,0 +1,72 @@
+00:00.413  blend            | Read blend: "/Users/wiljms/Documents/ProyectosPP/CobertizoProfesor/ProjectCobertizo/blender/patio_master.blend"
+CYCLES_DEVICE GPU [('Apple M2', 'CPU', False), ('Apple M2 (GPU - 8 cores)', 'METAL', True)]
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+19:16:06 | INFO: Starting glTF 2.0 export
+19:16:06 | INFO: Extracting primitive: Cone.478
+19:16:06 | INFO: Primitives created: 3
+19:16:06 | INFO: Extracting primitive: CHAIR_RED_SEAT_0.001
+19:16:06 | INFO: Primitives created: 7
+19:16:06 | INFO: Extracting primitive: GROUND_LAWN.001
+19:16:08 | INFO: Primitives created: 12
+19:16:09 | INFO: Extracting primitive: Cone.465
+19:16:09 | INFO: Primitives created: 5
+19:16:09 | INFO: Extracting primitive: WATER_SURFACE
+19:16:09 | INFO: Primitives created: 1
+19:16:09 | INFO: Finished glTF 2.0 export in 3.1363818645477295 s
+
+19:16:09 | INFO: Starting glTF 2.0 export
+19:16:09 | INFO: Extracting primitive: Cube.1156
+19:16:09 | INFO: Primitives created: 6
+19:16:09 | INFO: Finished glTF 2.0 export in 0.25417494773864746 s
+
+19:16:09 | INFO: Starting glTF 2.0 export
+19:16:09 | INFO: Extracting primitive: Cube.1254
+19:16:09 | INFO: Primitives created: 6
+19:16:09 | INFO: Finished glTF 2.0 export in 0.2552640438079834 s
+
+19:16:09 | INFO: Starting glTF 2.0 export
+19:16:09 | INFO: Extracting primitive: Cube.1323
+19:16:09 | INFO: Primitives created: 6
+19:16:09 | INFO: Finished glTF 2.0 export in 0.03933215141296387 s
+
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__day MESH_SURFACES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__day MESH_FURNITURE
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__day MESH_VEGETATION
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__day MESH_FIXTURES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__day MESH_D1_MADERA_DOS_AGUAS
+01:09.576  render           | Saved: '/Users/wiljms/Documents/ProyectosPP/CobertizoProfesor/ProjectCobertizo/outputs/renders/d1_madera_dos_aguas__day__CAM01_GENERAL.png'
+RENDERED d1_madera_dos_aguas__day
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__night MESH_SURFACES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__night MESH_FURNITURE
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__night MESH_VEGETATION
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__night MESH_FIXTURES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d1_madera_dos_aguas__night MESH_D1_MADERA_DOS_AGUAS
+02:41.450  render           | Saved: '/Users/wiljms/Documents/ProyectosPP/CobertizoProfesor/ProjectCobertizo/outputs/renders/d1_madera_dos_aguas__night__CAM01_GENERAL.png'
+RENDERED d1_madera_dos_aguas__night
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__day MESH_SURFACES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__day MESH_FURNITURE
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__day MESH_VEGETATION
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__day MESH_FIXTURES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__day MESH_D2_OSCURO_CIELO_MADERA
+03:35.316  render           | Saved: '/Users/wiljms/Documents/ProyectosPP/CobertizoProfesor/ProjectCobertizo/outputs/renders/d2_oscuro_cielo_madera__day__CAM01_GENERAL.png'
+RENDERED d2_oscuro_cielo_madera__day
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__night MESH_SURFACES
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED d2_oscuro_cielo_madera__night MESH_FURNITURE

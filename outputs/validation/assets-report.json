@@ -1,0 +1,2497 @@
+{
+  "states": 6,
+  "models": [
+    {
+      "path": "web/public/assets/models/common.glb",
+      "bytes": 12096792,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "KHR_materials_transmission",
+        "KHR_materials_ior",
+        "EXT_texture_webp"
+      ],
+      "primitives": 28,
+      "uv1_primitives": 27,
+      "meshIds": [
+        "MESH_FIXTURES",
+        "MESH_FURNITURE",
+        "MESH_SURFACES",
+        "MESH_VEGETATION",
+        "WATER_SURFACE"
+      ]
+    },
+    {
+      "path": "web/public/assets/models/d1_madera_dos_aguas.glb",
+      "bytes": 946632,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp"
+      ],
+      "primitives": 6,
+      "uv1_primitives": 6,
+      "meshIds": [
+        "MESH_D1_MADERA_DOS_AGUAS"
+      ]
+    },
+    {
+      "path": "web/public/assets/models/d2_oscuro_cielo_madera.glb",
+      "bytes": 813992,
+      "extensions": [
+        "EXT_meshopt_compression",
+        "EXT_texture_webp"
+      ],
+      "primitives": 6,
+      "uv1_primitives": 6,
+      "meshIds": [
+        "MESH_D2_OSCURO_CIELO_MADERA"
+      ]
+    },
+    {
+      "path": "web/public/assets/models/d3_oscuro_paneles_claros.glb",
+      "bytes": 417388,
+      "extensions": [
+        "EXT_meshopt_compression"
+      ],
+      "primitives": 6,
+      "uv1_primitives": 6,
+      "meshIds": [
+        "MESH_D3_OSCURO_PANELES_CLAROS"
+      ]
+    }
+  ],
+  "lightmaps": [
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "high",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 11171935,
+      "sha256": "963012206327db78172a5d5e1cd57e9bcbc45be63e728acbbb4179d5ef173da6",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "balanced",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3223560,
+      "sha256": "70374b3a0c7ae904b4a1c0b0befaa0df227e2450a776e8ae217d57ca3e0b938f",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "low",
+      "width": 512,
+      "height": 512,
+      "bytes": 893223,
+      "sha256": "e6de872dfa359a748392666f1fac60d24fbd42f19865939bf4e0358fb2fe9c22",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4257163,
+      "sha256": "49baab72b51f41a3bdf4e92eacab230331c2e2b21e790f00baf2062a34a9ae51",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1139181,
+      "sha256": "26f78df7b8c99c7ac5dd454a12145af3941053fb5fe2ed06ff8ee584d8fd52b0",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 301008,
+      "sha256": "27721a2f54d7b36ed214813d10d2f686fcbbbebce8b5006efe608309dfb77727",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4821647,
+      "sha256": "7b45e5df39e2b6c9c8f91b4bd1fc0afbdda36811366d02eba48b026e936ccb0c",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1269085,
+      "sha256": "1b64b594408786180be2d2d373f83976169553ac732fd2f49a64c5ccc4aee362",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 324070,
+      "sha256": "156ccff7baa20d63c94e38d8aea6c58bb8f24d5933809950495abc6321182c85",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "high",
+      "width": 512,
+      "height": 512,
+      "bytes": 880281,
+      "sha256": "43c647bdb5fa79cda301f6382dad18600605be85f8603b3f211772394db02bac",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "balanced",
+      "width": 256,
+      "height": 256,
+      "bytes": 244179,
+      "sha256": "e3bf0f5b00dad93908b3c7030e6ef3c5d5cde8dc8532f1fbf25427c2fbea3f75",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "low",
+      "width": 128,
+      "height": 128,
+      "bytes": 69749,
+      "sha256": "69b6c5b86cea36e2845f6e2788ab0133cab11829540b4d5f3cd27d0bc3f6f482",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3279238,
+      "sha256": "101634a768fbb60e02e54fc57f268e659bb626c9ca431274e111cd5cf1243890",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 934442,
+      "sha256": "5cd057447e622c289b9796d3feb08189a10f252726af2c2655916c4fd8ba19bc",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__day",
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 263567,
+      "sha256": "70c5d77e3d372767b97c5c6cc8e6ad6d359eb36d7f36b6201be1a4ceeb30fca0",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "high",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 11513420,
+      "sha256": "9cabd837fb577479dd36f9fd455f2328d37c1fb08a7a0ecda066582acb04d147",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "balanced",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3278313,
+      "sha256": "2535c0a76c5386261bfe9193d6a069135755101b5e78d8bcd6204467bc352597",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "low",
+      "width": 512,
+      "height": 512,
+      "bytes": 914998,
+      "sha256": "357d968e15b4cfc82f3bbb92e45ad362b8152c5b944eb4b0c5a882a3c9137b6b",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4317289,
+      "sha256": "83f5b51026edb6f46ee7c543e2a7cb7053d0f2f077a24e40b86f9f7b827b36e9",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1154996,
+      "sha256": "fd9519c140df189e359b61710c4652e956c4cb125dd690fc41f8d7f9571ee95f",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 303353,
+      "sha256": "25a5ec0c8059ce6adef84f2017cde01b6e0bb5b2762dc843cb2fd5c518674ab1",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4877939,
+      "sha256": "e28d276c489ef59e6940a9eb37ddeb5c7fddec71de4569c3c6de63ad9a7e510c",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1293403,
+      "sha256": "e0c59d7cfdfd3a28c8ab48d7dfacb94fdb2898f708f6f1e9d300687932953719",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 337602,
+      "sha256": "7c56b60ff0030b1dc9ac10bdf9bdae599c02bcf65ce68d07a77f6c6dd4b6d918",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "high",
+      "width": 512,
+      "height": 512,
+      "bytes": 924263,
+      "sha256": "9301a355bbd36a7198d30df818c6f2b9319b40db0c92fa1c81337065723bf0ec",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "balanced",
+      "width": 256,
+      "height": 256,
+      "bytes": 259298,
+      "sha256": "e67573364a22463f4c9087d15de558c6e0fe37eb950ba452590f1b56071f1ce1",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "low",
+      "width": 128,
+      "height": 128,
+      "bytes": 73402,
+      "sha256": "24e1eb37cbf71736ca02bb4491f0d18a03e0bd2fdfe7138c6f3ec54faf224ab0",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3426213,
+      "sha256": "d537e8c0fda5ef56b14339ea6812c563bac7e9919c70fc566742c858fb1ef25d",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 965519,
+      "sha256": "7c53a49bd6dcf2c541c104a643d23fd9e9b3d11b9e88335591b9c88637c322ac",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d1_madera_dos_aguas__night",
+      "meshId": "MESH_D1_MADERA_DOS_AGUAS",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 271590,
+      "sha256": "a56fd676dbd48166391a18329e458eec1d0476c931ab9a1048a7a7229fff275f",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "high",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 11155893,
+      "sha256": "ceb5a50a070b2e7fae053ce5268c53aa5a78b74c6868b6a4593a867dcbdd1884",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "balanced",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3220574,
+      "sha256": "0fe717ca3e53153d11de1244176aff28e15985687bf76a9063e516cc848f71fd",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "low",
+      "width": 512,
+      "height": 512,
+      "bytes": 891947,
+      "sha256": "a2117a3d4d5a502249c9a7bafacc2cf90fcbe92004e13c0aa4e22a2b8e1c25a6",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4254635,
+      "sha256": "cc2b8e57f56bad54fd09d1d19ef137402e07cd8b4b7ba1578658a1cad01ab30a",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1139121,
+      "sha256": "57622e617aa39b5faff728a23fea665772cc553ac81065637ca2d75d27647045",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 300725,
+      "sha256": "cb2106f08276d36816db7d76b59a03bf4911da1e9a52e5e42968270d3207719d",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4823084,
+      "sha256": "4a483deb8877825810b8c1abb52d7eea98b366e08d1f585775ee1c842d910d58",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1268976,
+      "sha256": "5bf2f28ccb157e7d7025f97c49e0394a8bafed4165a4b0caea3c9b4a9ad56c8f",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 324441,
+      "sha256": "2308709ff3843de0c215a747f6facc80cbe250f65f3a0390dc6fe7f9f7e4b400",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "high",
+      "width": 512,
+      "height": 512,
+      "bytes": 880874,
+      "sha256": "0a8712ca8d7d3942b8712d10de042fa78d4e5252c990eacafe9eaf3f1e6891d3",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "balanced",
+      "width": 256,
+      "height": 256,
+      "bytes": 243918,
+      "sha256": "6c06e187ba071ede7ddfd8d3ed47ff85eb826f758d833cfb1f4aa95e7de411bb",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "low",
+      "width": 128,
+      "height": 128,
+      "bytes": 69768,
+      "sha256": "296dcced9edf8fff159001dce3f66257d05d8621d05a27d794d8fa257c69008d",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3065846,
+      "sha256": "be34f551e1948963d57a55899726ac91d8c7d5c7667f2d288ee3179a81af883e",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 889330,
+      "sha256": "f9c21459317725436a573bcc36d0074a51d9cf6f95e26855787c5c81e47e4621",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__day",
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 251421,
+      "sha256": "2cd164b8ccf12fd07a9eca3d4e3ebb185ea9ea60acd2af8edb61a5a692c0b5fd",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "high",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 11473041,
+      "sha256": "134bbbc39bbe96bedde553b27cad4ff6dbb29ae09ff0d496131e2664b3e895b1",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "balanced",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3268059,
+      "sha256": "8383672f4a9f623c8fe8ef957d47ccfe565b69f87d3d7ca0ac8b3d6ad1748ba6",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "low",
+      "width": 512,
+      "height": 512,
+      "bytes": 912899,
+      "sha256": "18b97bef5bf5bc28554e530f8195f667615d07792b69254dee643193f1011795",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4317484,
+      "sha256": "e5091687065f998cff4dc7060c8059cc59b05dd5506f2346082d4011b296db34",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1153578,
+      "sha256": "1b2da83f493d99558e4e87e37106377cb72bb3c937b7432bf85e7b85390482c8",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 303135,
+      "sha256": "787a0ceee6ba96e0a5759c5eb0d8fe0b8ab978366ae877449ecbb9473cd6f69c",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4827232,
+      "sha256": "97c620f305b6c4592009cea93492e815bb2cc42e09733f6eb10423f1b5d71790",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1283167,
+      "sha256": "2070d1b3e50a07b09de29b60bf4258424b9dffca47b5e7604514ea5ae6a2aaa6",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 336028,
+      "sha256": "d207f5a8ff456d1ef4a34c772cc8e3981636c4db3f479a8637b0d1b8068e23f2",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "high",
+      "width": 512,
+      "height": 512,
+      "bytes": 924384,
+      "sha256": "276c3ef25d985171f9c80a1de2477d8da9b9ff929a766c9ee8791fc19e1ba9b9",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "balanced",
+      "width": 256,
+      "height": 256,
+      "bytes": 259149,
+      "sha256": "d0f76e9803f91a9c42875278cf114735dbf7b79d9e1be80f3ab9c0b42356fa29",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "low",
+      "width": 128,
+      "height": 128,
+      "bytes": 73293,
+      "sha256": "b10c2d0a2293cf76cd13a53fb592fdc7a79205007e2406ff9ed9d449f7806d08",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3223921,
+      "sha256": "107a56a030f255bca82b6f6c74ddee30ebe82b1d6c54ced59f95518f66bd8e6c",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 923781,
+      "sha256": "439db1419db80391797bdb4aaac07ed9e10120bbc1825febd7b5c7ca20f58c84",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d2_oscuro_cielo_madera__night",
+      "meshId": "MESH_D2_OSCURO_CIELO_MADERA",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 260065,
+      "sha256": "53d4578164dfa64e1cd5422f763110639cdeb8dd1ef268e8921a84366c70761e",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "high",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 11202312,
+      "sha256": "c5ec36b9e7d69888ab8621b1a04cc673580943823bb5158fd1448faf3f96edf4",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "balanced",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3231641,
+      "sha256": "6ef6f9d1d8cf84d696437499b2abd9f1b5af26ec8ea2e34b8e109146c422ad3e",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_SURFACES",
+      "quality": "low",
+      "width": 512,
+      "height": 512,
+      "bytes": 895077,
+      "sha256": "d7621d89289a4530b5db30cd54d64d3344b79ca5657dd17588d0d60a5262224d",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4260749,
+      "sha256": "f3b971ca4189de51bab60b653cd5abf6c43489ca374551e8549f28ed8b7ba116",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1141080,
+      "sha256": "ff30cfd921765aefac60086719513d2503171828865fe63f4e9feec5eb2a9310",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_FURNITURE",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 300979,
+      "sha256": "2f23ea9cabce4ae3c84c3ce9ec40e02970fa8bdf242e18d3653f9b29f2921522",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4816998,
+      "sha256": "e1b8a504d67b99c8deda64bf7f1f6b5098edc77d85c9eaea696adf0b6951af5d",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1266644,
+      "sha256": "839a837bcf56059e2b0ce2b7c852dd029e59d8c13e642ee9cc27cd01cc000bb0",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_VEGETATION",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 323959,
+      "sha256": "e29257e0ad2a2c2e1fe0dda5e8ab4a2f32a256b6db7314b70c96fb017d3899c0",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "high",
+      "width": 512,
+      "height": 512,
+      "bytes": 880667,
+      "sha256": "3eb343dbaf9bb0febcbf3e44b2bb60c4d81a8ad6059bc0aed50abeb38bee4b15",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "balanced",
+      "width": 256,
+      "height": 256,
+      "bytes": 243642,
+      "sha256": "4ca9cdb6c6b90f42f06584d82194d535f196cb2c528ebd87a13629efd7e608b5",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_FIXTURES",
+      "quality": "low",
+      "width": 128,
+      "height": 128,
+      "bytes": 69775,
+      "sha256": "c4204f29e4d50d53c689d0e19b5668880bb8ac0198a1693cbabb04f5e22e3b8c",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3221824,
+      "sha256": "45ad19d4e00c0a2a01e662431969efc5746aa662bc1ef128b7777bef10ea8266",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 928321,
+      "sha256": "fb3c2f605f91c96659b280d63917472f5a29fc7f584cde0c9f34217be83b42a7",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__day",
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 259513,
+      "sha256": "efd58c2f834f272908f2fdc30fff086576e948620577a9b588b693eec109070e",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "high",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 11477137,
+      "sha256": "029ad5d2885ba0738b2f3fa59e4017fdcb94cc4d223598cf0e869d4d8ce1aa08",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "balanced",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3268145,
+      "sha256": "0f24ce73fd640e3e0b61fb1073ff5dfe484f72285af1fac47c2e1d3aa582e0ed",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_SURFACES",
+      "quality": "low",
+      "width": 512,
+      "height": 512,
+      "bytes": 913090,
+      "sha256": "49bf9663d216ad1d908e320435b47ddfc8adf89ea2b6e001c64ee74d713ff973",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4320089,
+      "sha256": "42f81b228ec74085bdc3fd9872453d4a385a8bd825c3fc3b349df9b5c5844704",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1154294,
+      "sha256": "2be284c6ddaea01c699e2cb3042577021658b674d550df290750397df26a3971",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_FURNITURE",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 303383,
+      "sha256": "9112e0f4e73fa7680a1aedbbf3930811e9daa739db1c0419171fe294ad025af3",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 4826596,
+      "sha256": "f1f2ad7199ef42e81765aca4c2c774d71d4c9b4b3dcf59da8fdc5887997812bb",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1283269,
+      "sha256": "73c76cd01f31f87224ec35a1a57b5446fe1537cf08328e310de174dc0100622b",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_VEGETATION",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 336150,
+      "sha256": "5bfcfbfbec26bd7f6f6a44b6c5e8ce782cf1a1358d697a405f1103fde8803988",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "high",
+      "width": 512,
+      "height": 512,
+      "bytes": 924630,
+      "sha256": "a57021a5ce328cec392a304021bdd0b32eba9b7ab9b2b3cf7dc091ad997772e4",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "balanced",
+      "width": 256,
+      "height": 256,
+      "bytes": 259207,
+      "sha256": "f98952306a2cc0861f8de6b704b55e717f48504145d2c830a2a3c61d9a16063e",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_FIXTURES",
+      "quality": "low",
+      "width": 128,
+      "height": 128,
+      "bytes": 73415,
+      "sha256": "e1b6cd0e3ebe5b5f4b77a39d1b09847773a6d1779d0b6bb44039fc3c92b97cd7",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "quality": "high",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 3695967,
+      "sha256": "7880338f9067d627acf0799e4963fe8c299f4eaddb27e86a6bd55c8d4c428e52",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "quality": "balanced",
+      "width": 512,
+      "height": 512,
+      "bytes": 1028663,
+      "sha256": "4f617fe0a976045b99e5801b5c7567eb8d590963c19989217908f2a87765a803",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    },
+    {
+      "state": "d3_oscuro_paneles_claros__night",
+      "meshId": "MESH_D3_OSCURO_PANELES_CLAROS",
+      "quality": "low",
+      "width": 256,
+      "height": 256,
+      "bytes": 284256,
+      "sha256": "fa41802b8f2641fd8f9393e4ce2badf9f8f673d4f3924f256d0480f10d5838c2",
+      "channels": [
+        {
+          "channel": "A",
+          "pixelType": 1
+        },
+        {
+          "channel": "B",
+          "pixelType": 1
+        },
+        {
+          "channel": "G",
+          "pixelType": 1
+        },
+        {
+          "channel": "R",
+          "pixelType": 1
+        }
+      ]
+    }
+  ],
+  "missing": [],
+  "total_distributable_bytes": 230104435,
+  "exr_encoding_verified": "HALF channels, ZIP compression, no PNG masquerading as EXR"
+}
